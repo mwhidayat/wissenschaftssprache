@@ -551,7 +551,7 @@ st.markdown(
     """
 <div class="corpus-header">
   <h1>AkademiKorpus</h1>
-  <p>Lehrkorpus für Wissenschaftssprache Deutsch</p>
+  <p>Lehrkorpus für Wissenschaftssprache Deutsch · STBA YAPARI · Sommersemester 2025/2026</p>
 </div>
 """,
     unsafe_allow_html=True,
