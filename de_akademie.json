@@ -1,113 +1,36 @@
 {
-  "corpus_name": "Wissenschaftssprache Deutsch – Lehrkorpus",
+  "corpus_name": "AkademiKorpus",
   "version": "2.0",
-  "description": "Realistic academic German texts aligned to course weeks 1–9, with paragraph-level annotations for Alltägliche Wissenschaftssprache features.",
+  "description": "Lehrkorpus für Wissenschaftssprache Deutsch – STBA YAPARI Sommersemester 2025/2026",
   "documents": [
     {
       "doc_id": "D001",
-      "title": "Zur Funktion von Definitionen im wissenschaftlichen Schreiben",
-      "domain": "Sprachwissenschaft",
-      "topic": "Begriffserläuterung und Definition",
+      "title": "Intertextuelle Strategien im deutschsprachigen Gegenwartsroman",
+      "domain": "Germanistik",
+      "topic": "Intertextualität in der Gegenwartsliteratur",
       "course_week": 2,
       "course_target": "Wissenschaftssprache Deutsch",
       "difficulty": "mittel",
       "text_type": "Zeitschriftenartikel",
       "sections": [
         {
-          "section": "Abstract",
-          "paragraphs": [
-            {
-              "text": "Der vorliegende Beitrag untersucht, welche Funktion Definitionen in wissenschaftlichen Fachtexten übernehmen und wie sie sprachlich realisiert werden. Ausgehend von einem Korpus germanistischer Zeitschriftenartikel werden typische Definitionsmuster identifiziert und hinsichtlich ihrer syntaktischen und semantischen Merkmale analysiert. Die Ergebnisse zeigen, dass Definitionen nicht nur Bedeutung festlegen, sondern auch argumentative und strukturierende Funktionen erfüllen. Für die Didaktik des wissenschaftlichen Schreibens ergeben sich daraus konkrete Implikationen.",
-              "annotated_text": "Der vorliegende Beitrag [[research_question]]untersucht, welche Funktion Definitionen in wissenschaftlichen Fachtexten übernehmen und wie sie sprachlich realisiert werden[[/research_question]]. Ausgehend von einem [[method]]Korpus germanistischer Zeitschriftenartikel[[/method]] werden typische Definitionsmuster identifiziert und hinsichtlich ihrer syntaktischen und semantischen Merkmale analysiert. Die [[result_statement]]Ergebnisse zeigen, dass Definitionen nicht nur Bedeutung festlegen, sondern auch argumentative und strukturierende Funktionen erfüllen[[/result_statement]].",
-              "annotations": [
-                {
-                  "label": "research_question",
-                  "span": "untersucht, welche Funktion Definitionen in wissenschaftlichen Fachtexten übernehmen und wie sie sprachlich realisiert werden"
-                },
-                {
-                  "label": "method",
-                  "span": "Korpus germanistischer Zeitschriftenartikel"
-                },
-                {
-                  "label": "result_statement",
-                  "span": "Ergebnisse zeigen, dass Definitionen nicht nur Bedeutung festlegen, sondern auch argumentative und strukturierende Funktionen erfüllen"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Wissenschaftliche Texte sind ohne Definitionen kaum denkbar. Begriffe wie 'Methode', 'Theorie' oder 'Diskurs' erscheinen zwar als allgemein bekannt, doch ihre genaue Bedeutung ist oft kontextabhängig und fachspezifisch verschieden. Unter einem Begriff versteht man im wissenschaftlichen Kontext eine gedankliche Einheit, die einen Sachverhalt präzise abgrenzt und damit kommunikative Eindeutigkeit ermöglicht. Diese scheinbar selbstverständliche Anforderung stellt viele Studierende vor erhebliche Herausforderungen.",
-              "annotated_text": "[[definition]]Unter einem Begriff versteht man im wissenschaftlichen Kontext eine gedankliche Einheit, die einen Sachverhalt präzise abgrenzt und damit kommunikative Eindeutigkeit ermöglicht[[/definition]]. Diese scheinbar selbstverständliche Anforderung stellt viele Studierende vor erhebliche Herausforderungen.",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Unter einem Begriff versteht man im wissenschaftlichen Kontext eine gedankliche Einheit, die einen Sachverhalt präzise abgrenzt und damit kommunikative Eindeutigkeit ermöglicht"
-                }
-              ]
-            },
-            {
-              "text": "Die vorliegende Untersuchung geht der Frage nach, welche sprachlichen Mittel in germanistischen Fachtexten eingesetzt werden, um Definitionen zu formulieren, und welche Funktionen diese Formulierungen im Textzusammenhang erfüllen. Dabei wird davon ausgegangen, dass Definitionen nicht isoliert betrachtet werden können, sondern stets in den argumentativen Fluss eines Textes eingebettet sind. Daraus ergibt sich die Notwendigkeit, sowohl formale als auch funktionale Aspekte zu berücksichtigen.",
-              "annotated_text": "[[research_question]]Die vorliegende Untersuchung geht der Frage nach, welche sprachlichen Mittel in germanistischen Fachtexten eingesetzt werden, um Definitionen zu formulieren, und welche Funktionen diese Formulierungen im Textzusammenhang erfüllen[[/research_question]]. [[argument]]Dabei wird davon ausgegangen, dass Definitionen nicht isoliert betrachtet werden können, sondern stets in den argumentativen Fluss eines Textes eingebettet sind[[/argument]].",
+              "text": "Der vorliegende Beitrag untersucht intertextuelle Bezüge in ausgewählten Romanen der deutschsprachigen Gegenwartsliteratur und fragt, auf welche Weise Autorinnen und Autoren auf kanonische Vorgängertexte verweisen, diese umschreiben oder ironisch kommentieren. Unter Intertextualität versteht man in Anlehnung an Kristeva (1967) die Eigenschaft von Texten, Transformationen anderer Texte zu sein und diese in sich aufzunehmen, zu verschmelzen und neu zu konfigurieren. Damit ist Intertextualität kein peripheres Stilmittel, sondern ein ontologisches Merkmal literarischer Kommunikation. Diese Perspektive unterscheidet sich grundlegend von älteren Quellenforschungen, die lediglich nach Einflüssen und Abhängigkeiten suchten, ohne die produktive Transformation des Ausgangsmaterials in den Blick zu nehmen.",
+              "annotated_text": "Der vorliegende Beitrag [[research_question]]untersucht intertextuelle Bezüge in ausgewählten Romanen der deutschsprachigen Gegenwartsliteratur und fragt, auf welche Weise Autorinnen und Autoren auf kanonische Vorgängertexte verweisen, diese umschreiben oder ironisch kommentieren[[/research_question]]. [[definition]]Unter Intertextualität versteht man in Anlehnung an Kristeva (1967) die Eigenschaft von Texten, Transformationen anderer Texte zu sein und diese in sich aufzunehmen, zu verschmelzen und neu zu konfigurieren[[/definition]]. [[contrast]]Diese Perspektive unterscheidet sich grundlegend von älteren Quellenforschungen, die lediglich nach Einflüssen und Abhängigkeiten suchten, ohne die produktive Transformation des Ausgangsmaterials in den Blick zu nehmen[[/contrast]].",
               "annotations": [
                 {
                   "label": "research_question",
-                  "span": "Die vorliegende Untersuchung geht der Frage nach, welche sprachlichen Mittel in germanistischen Fachtexten eingesetzt werden, um Definitionen zu formulieren, und welche Funktionen diese Formulierungen im Textzusammenhang erfüllen"
+                  "span": "untersucht intertextuelle Bezüge in ausgewählten Romanen der deutschsprachigen Gegenwartsliteratur und fragt, auf welche Weise Autorinnen und Autoren auf kanonische Vorgängertexte verweisen, diese umschreiben oder ironisch kommentieren"
                 },
                 {
-                  "label": "argument",
-                  "span": "Dabei wird davon ausgegangen, dass Definitionen nicht isoliert betrachtet werden können, sondern stets in den argumentativen Fluss eines Textes eingebettet sind"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "In der Fachtextlinguistik werden Definitionen als Makrohandlungen beschrieben, die mehrere Teilfunktionen bündeln: Benennung, Abgrenzung und Einordnung. Eine Definition bezeichnet im engsten Sinne die Festlegung der Bedeutung eines Terminus durch Angabe seiner notwendigen und hinreichenden Merkmale. Sie unterscheidet sich damit grundlegend von einer Erläuterung, die lediglich das Verständnis erleichtern soll, ohne eine verbindliche Bedeutungsfestlegung vorzunehmen.",
-              "annotated_text": "[[definition]]Eine Definition bezeichnet im engsten Sinne die Festlegung der Bedeutung eines Terminus durch Angabe seiner notwendigen und hinreichenden Merkmale[[/definition]]. Sie [[contrast]]unterscheidet sich damit grundlegend von einer Erläuterung, die lediglich das Verständnis erleichtern soll, ohne eine verbindliche Bedeutungsfestlegung vorzunehmen[[/contrast]].",
-              "annotations": [
-                {
                   "label": "definition",
-                  "span": "Eine Definition bezeichnet im engsten Sinne die Festlegung der Bedeutung eines Terminus durch Angabe seiner notwendigen und hinreichenden Merkmale"
+                  "span": "Unter Intertextualität versteht man in Anlehnung an Kristeva (1967) die Eigenschaft von Texten, Transformationen anderer Texte zu sein und diese in sich aufzunehmen, zu verschmelzen und neu zu konfigurieren"
                 },
                 {
                   "label": "contrast",
-                  "span": "unterscheidet sich damit grundlegend von einer Erläuterung, die lediglich das Verständnis erleichtern soll, ohne eine verbindliche Bedeutungsfestlegung vorzunehmen"
-                }
-              ]
-            },
-            {
-              "text": "Graefen und Moll (2011) unterscheiden zwischen Genus-Differentia-Definitionen, die ein Konzept durch Oberbegriff und Spezifizierung bestimmen, und funktionalen Definitionen, die das Merkmal einer Entität durch ihre Aufgabe im Handlungszusammenhang beschreiben. Erstere sind besonders in den Naturwissenschaften verbreitet, während letztere häufiger in den Geistes- und Sozialwissenschaften anzutreffen sind. Diese Unterscheidung ist für die Analyse des vorliegenden Korpus leitend.",
-              "annotated_text": "[[citation]]Graefen und Moll (2011) unterscheiden zwischen Genus-Differentia-Definitionen, die ein Konzept durch Oberbegriff und Spezifizierung bestimmen, und funktionalen Definitionen, die das Merkmal einer Entität durch ihre Aufgabe im Handlungszusammenhang beschreiben[[/citation]]. [[comparison]]Erstere sind besonders in den Naturwissenschaften verbreitet, während letztere häufiger in den Geistes- und Sozialwissenschaften anzutreffen sind[[/comparison]].",
-              "annotations": [
-                {
-                  "label": "citation",
-                  "span": "Graefen und Moll (2011) unterscheiden zwischen Genus-Differentia-Definitionen, die ein Konzept durch Oberbegriff und Spezifizierung bestimmen, und funktionalen Definitionen, die das Merkmal einer Entität durch ihre Aufgabe im Handlungszusammenhang beschreiben"
-                },
-                {
-                  "label": "comparison",
-                  "span": "Erstere sind besonders in den Naturwissenschaften verbreitet, während letztere häufiger in den Geistes- und Sozialwissenschaften anzutreffen sind"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Methode",
-          "paragraphs": [
-            {
-              "text": "Für die Untersuchung wurden 30 Zeitschriftenartikel aus drei germanistischen Fachzeitschriften der Jahre 2015–2022 ausgewählt. Die Auswahl erfolgte nach den Kriterien thematischer Vielfalt und struktureller Vollständigkeit. Alle Texte wurden zunächst manuell nach Definitionspassagen durchsucht, die anschließend anhand eines eigens entwickelten Kategorienschemas kodiert wurden. Das Kategorienschema umfasst formale Merkmale (syntaktisches Muster, Verblexem) sowie funktionale Merkmale (Einbettung im Argumentationsfluss, Bezug auf Schlüsselbegriffe).",
-              "annotated_text": "[[method_description]]Für die Untersuchung wurden 30 Zeitschriftenartikel aus drei germanistischen Fachzeitschriften der Jahre 2015–2022 ausgewählt. Die Auswahl erfolgte nach den Kriterien thematischer Vielfalt und struktureller Vollständigkeit[[/method_description]].",
-              "annotations": [
-                {
-                  "label": "method_description",
-                  "span": "Für die Untersuchung wurden 30 Zeitschriftenartikel aus drei germanistischen Fachzeitschriften der Jahre 2015–2022 ausgewählt. Die Auswahl erfolgte nach den Kriterien thematischer Vielfalt und struktureller Vollständigkeit"
+                  "span": "Diese Perspektive unterscheidet sich grundlegend von älteren Quellenforschungen, die lediglich nach Einflüssen und Abhängigkeiten suchten, ohne die produktive Transformation des Ausgangsmaterials in den Blick zu nehmen"
                 }
               ]
             }
@@ -117,64 +40,16 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Die Analyse ergibt, dass drei Definitionsmuster besonders häufig auftreten: erstens die X-ist-Y-Konstruktion mit einem direkten Prädikatsnomen, zweitens die Unter-X-versteht-man-Y-Konstruktion als Standardformel wissenschaftlicher Prosa, und drittens die wird-als-X-aufgefasst-Konstruktion, die eine perspektivierende Funktion hat. Im untersuchten Korpus entfallen 42 % der Definitionsbelege auf den zweiten Typ. Dieser ist offenbar dann bevorzugt, wenn die Definition an bestehende Diskurse anknüpft und damit Geltungsansprüche kontextualisiert.",
-              "annotated_text": "[[result_statement]]Die Analyse ergibt, dass drei Definitionsmuster besonders häufig auftreten: erstens die X-ist-Y-Konstruktion, zweitens die Unter-X-versteht-man-Y-Konstruktion, und drittens die wird-als-X-aufgefasst-Konstruktion[[/result_statement]]. [[data_description]]Im untersuchten Korpus entfallen 42 % der Definitionsbelege auf den zweiten Typ[[/data_description]].",
-              "annotations": [
-                {
-                  "label": "result_statement",
-                  "span": "Die Analyse ergibt, dass drei Definitionsmuster besonders häufig auftreten: erstens die X-ist-Y-Konstruktion, zweitens die Unter-X-versteht-man-Y-Konstruktion, und drittens die wird-als-X-aufgefasst-Konstruktion"
-                },
-                {
-                  "label": "data_description",
-                  "span": "Im untersuchten Korpus entfallen 42 % der Definitionsbelege auf den zweiten Typ"
-                }
-              ]
-            },
-            {
-              "text": "Auffällig ist darüber hinaus, dass Definitionen selten isoliert stehen, sondern fast immer von einer Erläuterung oder einem Beispiel begleitet werden. In 78 % der analysierten Fälle folgt auf die Definitionsformel mindestens ein erläuternder Satz. Dieser Befund stützt die Hypothese, dass Definitionen in geisteswissenschaftlichen Texten primär diskursive und weniger normative Funktionen übernehmen.",
-              "annotated_text": "[[data_description]]In 78 % der analysierten Fälle folgt auf die Definitionsformel mindestens ein erläuternder Satz[[/data_description]]. [[argument]]Dieser Befund stützt die Hypothese, dass Definitionen in geisteswissenschaftlichen Texten primär diskursive und weniger normative Funktionen übernehmen[[/argument]].",
+              "text": "Die Analyse von zehn Romanen aus dem Zeitraum 2010–2022 ergibt, dass Hypertextualität mit 47 % aller identifizierten intertextuellen Bezüge die häufigste Form darstellt, gefolgt von Intertextualität im engeren Sinne – Zitat und Anspielung – mit 31 % sowie Metatextualität mit 14 %. Architextuelle Bezüge, also Verweise auf Gattungstraditionen ohne Nennung konkreter Texte, machen 8 % aus. In 62 % der Romane sind intertextuelle Bezüge narrativ funktionalisiert: Sie strukturieren die Handlung, motivieren Figurenhandlungen oder schaffen ironische Brechungseffekte. Diese Befunde deuten darauf hin, dass intertextuelle Verfahren in der Gegenwartsliteratur gezielt eingesetzt werden, um erinnerungskulturelle Perspektiven zu eröffnen und kanonische Deutungsmuster produktiv in Frage zu stellen. Weitere Analysen sind nötig.",
+              "annotated_text": "[[data_description]]Die Analyse ergibt, dass Hypertextualität mit 47 % aller intertextuellen Bezüge die häufigste Form darstellt, gefolgt von Intertextualität im engeren Sinne (31 %) und Metatextualität (14 %)[[/data_description]]. [[result_statement]]Diese Befunde deuten darauf hin, dass intertextuelle Verfahren in der Gegenwartsliteratur gezielt eingesetzt werden, um erinnerungskulturelle Perspektiven zu eröffnen und kanonische Deutungsmuster produktiv in Frage zu stellen[[/result_statement]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "In 78 % der analysierten Fälle folgt auf die Definitionsformel mindestens ein erläuternder Satz"
+                  "span": "Die Analyse ergibt, dass Hypertextualität mit 47 % aller intertextuellen Bezüge die häufigste Form darstellt, gefolgt von Intertextualität im engeren Sinne (31 %) und Metatextualität (14 %)"
                 },
-                {
-                  "label": "argument",
-                  "span": "Dieser Befund stützt die Hypothese, dass Definitionen in geisteswissenschaftlichen Texten primär diskursive und weniger normative Funktionen übernehmen"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Diskussion",
-          "paragraphs": [
-            {
-              "text": "Die vorliegenden Befunde legen nahe, dass die Wahl des Definitionsmusters nicht willkürlich ist, sondern von textuellen und kommunikativen Faktoren abhängt. Insbesondere die Unter-X-versteht-man-Y-Formel scheint als Signal für terminologische Neueinführungen zu fungieren und damit eine orientierende Leserlenkung zu übernehmen. Demgegenüber wird die wird-als-aufgefasst-Konstruktion eher dann gewählt, wenn mehrere konkurrierende Definitionen im Raum stehen und die eigene Position kenntlich gemacht werden soll.",
-              "annotated_text": "[[argument]]Die vorliegenden Befunde legen nahe, dass die Wahl des Definitionsmusters nicht willkürlich ist, sondern von textuellen und kommunikativen Faktoren abhängt[[/argument]]. [[contrast]]Demgegenüber wird die wird-als-aufgefasst-Konstruktion eher dann gewählt, wenn mehrere konkurrierende Definitionen im Raum stehen und die eigene Position kenntlich gemacht werden soll[[/contrast]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "Die vorliegenden Befunde legen nahe, dass die Wahl des Definitionsmusters nicht willkürlich ist, sondern von textuellen und kommunikativen Faktoren abhängt"
-                },
-                {
-                  "label": "contrast",
-                  "span": "Demgegenüber wird die wird-als-aufgefasst-Konstruktion eher dann gewählt, wenn mehrere konkurrierende Definitionen im Raum stehen und die eigene Position kenntlich gemacht werden soll"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Die Untersuchung zeigt, dass Definitionen in germanistischen Fachtexten vielschichtige kommunikative Funktionen übernehmen, die über die reine Bedeutungsfestlegung hinausgehen. Für den Unterricht im wissenschaftlichen Schreiben bedeutet dies, dass nicht nur die formalen Muster, sondern auch die funktionale Einbettung von Definitionen in den Textzusammenhang thematisiert werden sollte. Ein Bewusstsein für die kontextuelle Angemessenheit von Definitionsformeln kann Studierenden helfen, präziser und souveräner zu formulieren.",
-              "annotated_text": "[[result_statement]]Die Untersuchung zeigt, dass Definitionen in germanistischen Fachtexten vielschichtige kommunikative Funktionen übernehmen, die über die reine Bedeutungsfestlegung hinausgehen[[/result_statement]].",
-              "annotations": [
                 {
                   "label": "result_statement",
-                  "span": "Die Untersuchung zeigt, dass Definitionen in germanistischen Fachtexten vielschichtige kommunikative Funktionen übernehmen, die über die reine Bedeutungsfestlegung hinausgehen"
+                  "span": "Diese Befunde deuten darauf hin, dass intertextuelle Verfahren in der Gegenwartsliteratur gezielt eingesetzt werden, um erinnerungskulturelle Perspektiven zu eröffnen und kanonische Deutungsmuster produktiv in Frage zu stellen"
                 }
               ]
             }
@@ -184,69 +59,28 @@
     },
     {
       "doc_id": "D002",
-      "title": "Fragestellungen in sprachwissenschaftlichen Seminararbeiten: eine Bestandsaufnahme",
-      "domain": "Sprachwissenschaft",
-      "topic": "Frage, Problem und Verwandtes",
+      "title": "Narrative Strategien der Erinnerungskultur im deutschsprachigen Roman nach 1989",
+      "domain": "Germanistik",
+      "topic": "Erinnerungskultur und Gedächtnisliteratur",
       "course_week": 3,
       "course_target": "Wissenschaftssprache Deutsch",
-      "difficulty": "mittel",
-      "text_type": "Seminararbeit (studentisch)",
+      "difficulty": "schwer",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
-        {
-          "section": "Abstract",
-          "paragraphs": [
-            {
-              "text": "Studentische Seminararbeiten im Bereich der Sprachwissenschaft weisen häufig Schwächen bei der Formulierung der Forschungsfrage auf. Der vorliegende Beitrag analysiert 45 Einleitungen aus Bachelorarbeiten und identifiziert wiederkehrende Formulierungsprobleme. Es zeigt sich, dass die meisten Schwächen auf mangelnde Spezifität, fehlende Abgrenzung und zu weite Themenformulierungen zurückzuführen sind. Aus den Befunden werden praktische Hinweise für die Schreibberatung abgeleitet.",
-              "annotated_text": "[[problem_statement]]Studentische Seminararbeiten im Bereich der Sprachwissenschaft weisen häufig Schwächen bei der Formulierung der Forschungsfrage auf[[/problem_statement]]. [[method_description]]Der vorliegende Beitrag analysiert 45 Einleitungen aus Bachelorarbeiten[[/method_description]] und [[result_statement]]identifiziert wiederkehrende Formulierungsprobleme[[/result_statement]].",
-              "annotations": [
-                {
-                  "label": "problem_statement",
-                  "span": "Studentische Seminararbeiten im Bereich der Sprachwissenschaft weisen häufig Schwächen bei der Formulierung der Forschungsfrage auf"
-                },
-                {
-                  "label": "method_description",
-                  "span": "Der vorliegende Beitrag analysiert 45 Einleitungen aus Bachelorarbeiten"
-                },
-                {
-                  "label": "result_statement",
-                  "span": "identifiziert wiederkehrende Formulierungsprobleme"
-                }
-              ]
-            }
-          ]
-        },
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Die Forschungsfrage gilt als Herzstück jeder wissenschaftlichen Arbeit. Sie legt fest, was untersucht wird, welche Erkenntnisse angestrebt werden und wie die Untersuchung methodisch einzugrenzen ist. Dennoch zeigen Beobachtungen aus der Schreibdidaktik, dass viele Studierende Schwierigkeiten haben, eine präzise Fragestellung zu formulieren – und dies, obwohl die meisten Lehrveranstaltungen zur Wissenschaftspropädeutik diesem Thema eigene Einheiten widmen.",
-              "annotated_text": "[[definition]]Die Forschungsfrage gilt als Herzstück jeder wissenschaftlichen Arbeit. Sie legt fest, was untersucht wird, welche Erkenntnisse angestrebt werden und wie die Untersuchung methodisch einzugrenzen ist[[/definition]]. [[problem_statement]]Dennoch zeigen Beobachtungen aus der Schreibdidaktik, dass viele Studierende Schwierigkeiten haben, eine präzise Fragestellung zu formulieren[[/problem_statement]].",
+              "text": "Seit der deutschen Wiedervereinigung hat die literarische Auseinandersetzung mit kollektiver Erinnerung eine neue Dynamik gewonnen. Romane über den Nationalsozialismus, die DDR-Erfahrung oder die Geschichte der Arbeitsmigration beteiligen sich an einem gesamtgesellschaftlichen Prozess der Gedächtnisbildung. Unter dem Begriff der Erinnerungskultur versteht man die Gesamtheit der symbolischen, institutionellen und medialen Praktiken, durch die eine Gesellschaft ihr Verhältnis zur Vergangenheit gestaltet. Diese Definition schließt literarische Texte ausdrücklich ein, da Narrationen als besonders wirksame Träger kollektiver Gedächtnisgehalte gelten. Der vorliegende Beitrag fragt, mit welchen spezifisch narrativen Strategien Romane nach 1989 an der Konstruktion und Dekonstruktion erinnerungskultureller Deutungsmuster mitwirken.",
+              "annotated_text": "[[definition]]Unter dem Begriff der Erinnerungskultur versteht man die Gesamtheit der symbolischen, institutionellen und medialen Praktiken, durch die eine Gesellschaft ihr Verhältnis zur Vergangenheit gestaltet[[/definition]]. Diese Definition schließt literarische Texte ausdrücklich ein, da Narrationen als besonders wirksame Träger kollektiver Gedächtnisgehalte gelten. [[research_question]]Der vorliegende Beitrag fragt, mit welchen spezifisch narrativen Strategien Romane nach 1989 an der Konstruktion und Dekonstruktion erinnerungskultureller Deutungsmuster mitwirken[[/research_question]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Die Forschungsfrage gilt als Herzstück jeder wissenschaftlichen Arbeit. Sie legt fest, was untersucht wird, welche Erkenntnisse angestrebt werden und wie die Untersuchung methodisch einzugrenzen ist"
-                },
-                {
-                  "label": "problem_statement",
-                  "span": "Dennoch zeigen Beobachtungen aus der Schreibdidaktik, dass viele Studierende Schwierigkeiten haben, eine präzise Fragestellung zu formulieren"
-                }
-              ]
-            },
-            {
-              "text": "Ein häufig beobachtetes Problem besteht darin, dass Studierende zwischen Thema und Fragestellung nicht klar unterscheiden. Während ein Thema lediglich einen Gegenstandsbereich benennt, muss eine Fragestellung eine konkrete, beantwortbare und wissenschaftlich relevante Frage formulieren. Die Problemstellung dieser Arbeit liegt daher in der Frage, welche sprachlichen Merkmale fehlerhafte Fragestellungen aufweisen und welche didaktischen Konsequenzen sich daraus ergeben.",
-              "annotated_text": "[[problem_statement]]Ein häufig beobachtetes Problem besteht darin, dass Studierende zwischen Thema und Fragestellung nicht klar unterscheiden[[/problem_statement]]. [[contrast]]Während ein Thema lediglich einen Gegenstandsbereich benennt, muss eine Fragestellung eine konkrete, beantwortbare und wissenschaftlich relevante Frage formulieren[[/contrast]]. [[research_question]]Die Problemstellung dieser Arbeit liegt daher in der Frage, welche sprachlichen Merkmale fehlerhafte Fragestellungen aufweisen und welche didaktischen Konsequenzen sich daraus ergeben[[/research_question]].",
-              "annotations": [
-                {
-                  "label": "problem_statement",
-                  "span": "Ein häufig beobachtetes Problem besteht darin, dass Studierende zwischen Thema und Fragestellung nicht klar unterscheiden"
-                },
-                {
-                  "label": "contrast",
-                  "span": "Während ein Thema lediglich einen Gegenstandsbereich benennt, muss eine Fragestellung eine konkrete, beantwortbare und wissenschaftlich relevante Frage formulieren"
+                  "span": "Unter dem Begriff der Erinnerungskultur versteht man die Gesamtheit der symbolischen, institutionellen und medialen Praktiken, durch die eine Gesellschaft ihr Verhältnis zur Vergangenheit gestaltet"
                 },
                 {
                   "label": "research_question",
-                  "span": "Die Problemstellung dieser Arbeit liegt daher in der Frage, welche sprachlichen Merkmale fehlerhafte Fragestellungen aufweisen und welche didaktischen Konsequenzen sich daraus ergeben"
+                  "span": "Der vorliegende Beitrag fragt, mit welchen spezifisch narrativen Strategien Romane nach 1989 an der Konstruktion und Dekonstruktion erinnerungskultureller Deutungsmuster mitwirken"
                 }
               ]
             }
@@ -256,101 +90,20 @@
           "section": "Theoretischer Hintergrund",
           "paragraphs": [
             {
-              "text": "In der schreibdidaktischen Literatur wird zwischen Frage, Fragestellung und Problemstellung unterschieden. Unter einer Frage versteht man eine allgemeine, mitunter noch wenig fokussierte Formulierung eines Erkenntnisinteresses. Eine Fragestellung hingegen ist präziser, forschungsrelevant und in der Regel auf einen klar abgegrenzten Untersuchungsbereich zugeschnitten. Die Problematik bezeichnet dagegen die komplexe Gesamtheit aller offenen Aspekte, die mit einem Forschungsgegenstand verbunden sind und über eine einzelne Untersuchung hinausgehen können.",
-              "annotated_text": "[[definition]]Unter einer Frage versteht man eine allgemeine, mitunter noch wenig fokussierte Formulierung eines Erkenntnisinteresses[[/definition]]. [[contrast]]Eine Fragestellung hingegen ist präziser, forschungsrelevant und in der Regel auf einen klar abgegrenzten Untersuchungsbereich zugeschnitten[[/contrast]]. [[definition]]Die Problematik bezeichnet dagegen die komplexe Gesamtheit aller offenen Aspekte, die mit einem Forschungsgegenstand verbunden sind[[/definition]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Unter einer Frage versteht man eine allgemeine, mitunter noch wenig fokussierte Formulierung eines Erkenntnisinteresses"
-                },
-                {
-                  "label": "contrast",
-                  "span": "Eine Fragestellung hingegen ist präziser, forschungsrelevant und in der Regel auf einen klar abgegrenzten Untersuchungsbereich zugeschnitten"
-                },
-                {
-                  "label": "definition",
-                  "span": "Die Problematik bezeichnet dagegen die komplexe Gesamtheit aller offenen Aspekte, die mit einem Forschungsgegenstand verbunden sind"
-                }
-              ]
-            },
-            {
-              "text": "Bachmann und Feilke (2014) weisen darauf hin, dass das Scheitern an der Fragestellung oft nicht auf mangelndes Sachwissen, sondern auf fehlende metasprachliche Kompetenz zurückzuführen ist. Studierende könnten zwar über ein Thema sprechen, seien aber nicht in der Lage, daraus eine wissenschaftlich tragfähige Fragestellung zu generieren. Ähnliche Beobachtungen macht Kruse (2010), der betont, dass die Fragestellung die gesamte Textarchitektur einer Arbeit strukturiert und daher besonderer Aufmerksamkeit bedarf.",
-              "annotated_text": "[[citation]]Bachmann und Feilke (2014) weisen darauf hin, dass das Scheitern an der Fragestellung oft nicht auf mangelndes Sachwissen, sondern auf fehlende metasprachliche Kompetenz zurückzuführen ist[[/citation]]. [[paraphrase]]Ähnliche Beobachtungen macht Kruse (2010), der betont, dass die Fragestellung die gesamte Textarchitektur einer Arbeit strukturiert und daher besonderer Aufmerksamkeit bedarf[[/paraphrase]].",
+              "text": "Aleida Assmann (2006) hat eine folgenreiche Unterscheidung zwischen Speichergedächtnis und Funktionsgedächtnis entwickelt: Während das Speichergedächtnis das gesamte kulturelle Archiv einer Gesellschaft umfasst, bildet das Funktionsgedächtnis jene Bestände, die aktiv in Sinngebungsprozesse eingebunden sind. Literarische Texte vermögen Elemente aus dem Speichergedächtnis in das Funktionsgedächtnis zu überführen und damit vergessene oder verdrängte Erinnerungen wieder zugänglich zu machen. Ergänzend hat Marianne Hirsch (2012) das Konzept der Postmemory für Erinnerungsprozesse der zweiten und dritten Nachfolgegeneration entwickelt. Demgegenüber betonen Kritikerinnen und Kritiker dieses Konzepts, dass seine Übertragung auf andere historische Kontexte die Spezifik einzelner Traumata zu nivellieren droht.",
+              "annotated_text": "[[citation]]Aleida Assmann (2006) hat eine folgenreiche Unterscheidung zwischen Speichergedächtnis und Funktionsgedächtnis entwickelt[[/citation]]. [[argument]]Literarische Texte vermögen Elemente aus dem Speichergedächtnis in das Funktionsgedächtnis zu überführen und damit vergessene oder verdrängte Erinnerungen wieder zugänglich zu machen[[/argument]]. [[contrast]]Demgegenüber betonen Kritikerinnen und Kritiker, dass die Übertragung des Konzepts auf andere historische Kontexte die Spezifik einzelner Traumata zu nivellieren droht[[/contrast]].",
               "annotations": [
                 {
                   "label": "citation",
-                  "span": "Bachmann und Feilke (2014) weisen darauf hin, dass das Scheitern an der Fragestellung oft nicht auf mangelndes Sachwissen, sondern auf fehlende metasprachliche Kompetenz zurückzuführen ist"
-                },
-                {
-                  "label": "paraphrase",
-                  "span": "Ähnliche Beobachtungen macht Kruse (2010), der betont, dass die Fragestellung die gesamte Textarchitektur einer Arbeit strukturiert und daher besonderer Aufmerksamkeit bedarf"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Methode",
-          "paragraphs": [
-            {
-              "text": "Für die Analyse wurden 45 Einleitungsabschnitte aus Bachelorarbeiten ausgewählt, die im Zeitraum 2018–2023 an einer deutschsprachigen Universität eingereicht wurden. Die Texte entstammen sprachwissenschaftlichen Seminaren und wurden anonymisiert. Jede Einleitung wurde nach folgenden Kategorien kodiert: Vorhandensein einer expliziten Fragestellung, sprachliche Spezifität der Formulierung (operationalisiert als Anzahl einschränkender Attribute), thematische Abgrenzung sowie Bezug auf den Forschungsstand.",
-              "annotated_text": "[[method_description]]Für die Analyse wurden 45 Einleitungsabschnitte aus Bachelorarbeiten ausgewählt, die im Zeitraum 2018–2023 an einer deutschsprachigen Universität eingereicht wurden[[/method_description]]. [[method_description]]Jede Einleitung wurde nach folgenden Kategorien kodiert: Vorhandensein einer expliziten Fragestellung, sprachliche Spezifität der Formulierung, thematische Abgrenzung sowie Bezug auf den Forschungsstand[[/method_description]].",
-              "annotations": [
-                {
-                  "label": "method_description",
-                  "span": "Für die Analyse wurden 45 Einleitungsabschnitte aus Bachelorarbeiten ausgewählt, die im Zeitraum 2018–2023 an einer deutschsprachigen Universität eingereicht wurden"
-                },
-                {
-                  "label": "method_description",
-                  "span": "Jede Einleitung wurde nach folgenden Kategorien kodiert: Vorhandensein einer expliziten Fragestellung, sprachliche Spezifität der Formulierung, thematische Abgrenzung sowie Bezug auf den Forschungsstand"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Ergebnisse",
-          "paragraphs": [
-            {
-              "text": "In nur 31 % der analysierten Einleitungen war eine explizite, klar formulierte Forschungsfrage vorhanden. In den übrigen Texten wurde lediglich ein Thema oder eine vage Problemskizze benannt. Am häufigsten trat das Muster auf, dass das Thema zwar korrekt eingeführt, aber nicht in eine operationalisierbare Frage überführt wurde. Beispiele wie 'In dieser Arbeit soll das Thema X untersucht werden' illustrieren diesen Befund: Das Verb 'untersuchen' suggeriert zwar Wissenschaftlichkeit, lässt aber offen, nach welchem Kriterium und in welchem Rahmen untersucht wird.",
-              "annotated_text": "[[data_description]]In nur 31 % der analysierten Einleitungen war eine explizite, klar formulierte Forschungsfrage vorhanden[[/data_description]]. [[result_statement]]Am häufigsten trat das Muster auf, dass das Thema zwar korrekt eingeführt, aber nicht in eine operationalisierbare Frage überführt wurde[[/result_statement]].",
-              "annotations": [
-                {
-                  "label": "data_description",
-                  "span": "In nur 31 % der analysierten Einleitungen war eine explizite, klar formulierte Forschungsfrage vorhanden"
-                },
-                {
-                  "label": "result_statement",
-                  "span": "Am häufigsten trat das Muster auf, dass das Thema zwar korrekt eingeführt, aber nicht in eine operationalisierbare Frage überführt wurde"
-                }
-              ]
-            },
-            {
-              "text": "Ein weiteres Problem zeigt sich bei der Abgrenzung des Untersuchungsgegenstandes: Formulierungen wie 'Wie funktioniert Sprache?' oder 'Was ist Stil?' lassen keine klare Eingrenzung des Untersuchungsfeldes erkennen. Die Problematik liegt hier nicht nur in der sprachlichen Weite der Frage, sondern darin, dass solche Formulierungen keine Richtung für die Methodik vorgeben und damit die gesamte Textplanung erschweren.",
-              "annotated_text": "[[problem_statement]]Ein weiteres Problem zeigt sich bei der Abgrenzung des Untersuchungsgegenstandes: Formulierungen wie 'Wie funktioniert Sprache?' lassen keine klare Eingrenzung des Untersuchungsfeldes erkennen[[/problem_statement]]. [[argument]]Die Problematik liegt hier nicht nur in der sprachlichen Weite der Frage, sondern darin, dass solche Formulierungen keine Richtung für die Methodik vorgeben[[/argument]].",
-              "annotations": [
-                {
-                  "label": "problem_statement",
-                  "span": "Ein weiteres Problem zeigt sich bei der Abgrenzung des Untersuchungsgegenstandes: Formulierungen wie 'Wie funktioniert Sprache?' lassen keine klare Eingrenzung des Untersuchungsfeldes erkennen"
+                  "span": "Aleida Assmann (2006) hat eine folgenreiche Unterscheidung zwischen Speichergedächtnis und Funktionsgedächtnis entwickelt"
                 },
                 {
                   "label": "argument",
-                  "span": "Die Problematik liegt hier nicht nur in der sprachlichen Weite der Frage, sondern darin, dass solche Formulierungen keine Richtung für die Methodik vorgeben"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Die Befunde bestätigen, dass die Formulierung einer präzisen Fragestellung eine zentrale Herausforderung im wissenschaftlichen Schreiben darstellt und gezielter Förderung bedarf. Didaktische Konsequenzen bestehen zunächst darin, den Unterschied zwischen Thema, Frage und Fragestellung explizit zu thematisieren und anhand kontrastiver Textbeispiele zu üben. Darüber hinaus wäre es sinnvoll, Fragestellungen im Laufe des Schreibprozesses mehrfach zu überprüfen und zu schärfen, anstatt sie als festes Element von Anfang an zu fixieren.",
-              "annotated_text": "[[result_statement]]Die Befunde bestätigen, dass die Formulierung einer präzisen Fragestellung eine zentrale Herausforderung im wissenschaftlichen Schreiben darstellt und gezielter Förderung bedarf[[/result_statement]].",
-              "annotations": [
+                  "span": "Literarische Texte vermögen Elemente aus dem Speichergedächtnis in das Funktionsgedächtnis zu überführen und damit vergessene oder verdrängte Erinnerungen wieder zugänglich zu machen"
+                },
                 {
-                  "label": "result_statement",
-                  "span": "Die Befunde bestätigen, dass die Formulierung einer präzisen Fragestellung eine zentrale Herausforderung im wissenschaftlichen Schreiben darstellt und gezielter Förderung bedarf"
+                  "label": "contrast",
+                  "span": "Demgegenüber betonen Kritikerinnen und Kritiker, dass die Übertragung des Konzepts auf andere historische Kontexte die Spezifik einzelner Traumata zu nivellieren droht"
                 }
               ]
             }
@@ -360,86 +113,32 @@
     },
     {
       "doc_id": "D003",
-      "title": "Alltägliche Wissenschaftssprache im DaF-Unterricht: Potenziale und Grenzen",
-      "domain": "Deutsch als Fremdsprache",
-      "topic": "Alltägliche Wissenschaftssprache",
-      "course_week": 1,
+      "title": "Gattungstheoretische Überlegungen zur Hybridisierung literarischer Formen in der Gegenwart",
+      "domain": "Germanistik",
+      "topic": "Gattungstheorie und literarische Hybridformen",
+      "course_week": 4,
       "course_target": "Wissenschaftssprache Deutsch",
-      "difficulty": "leicht",
-      "text_type": "Didaktischer Aufsatz",
+      "difficulty": "schwer",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
-        {
-          "section": "Abstract",
-          "paragraphs": [
-            {
-              "text": "Das Konzept der Alltäglichen Wissenschaftssprache (AWS) hat in der Hochschuldidaktik und im Fach Deutsch als Fremdsprache zunehmend an Bedeutung gewonnen. Dieser Beitrag beleuchtet, welche Chancen und Grenzen sich bei der Vermittlung von AWS-Strukturen in DaF-Kursen für fortgeschrittene Lernende ergeben. Anhand von Unterrichtsmaterialien und Rückmeldungen von Lehrenden wird gezeigt, dass AWS-orientierter Unterricht das Leseverstehen und die Schreibkompetenz nachhaltig fördern kann, wenn er systematisch aufgebaut ist.",
-              "annotated_text": "[[definition]]Das Konzept der Alltäglichen Wissenschaftssprache (AWS) hat in der Hochschuldidaktik und im Fach Deutsch als Fremdsprache zunehmend an Bedeutung gewonnen[[/definition]]. [[research_question]]Dieser Beitrag beleuchtet, welche Chancen und Grenzen sich bei der Vermittlung von AWS-Strukturen in DaF-Kursen für fortgeschrittene Lernende ergeben[[/research_question]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Das Konzept der Alltäglichen Wissenschaftssprache (AWS) hat in der Hochschuldidaktik und im Fach Deutsch als Fremdsprache zunehmend an Bedeutung gewonnen"
-                },
-                {
-                  "label": "research_question",
-                  "span": "Dieser Beitrag beleuchtet, welche Chancen und Grenzen sich bei der Vermittlung von AWS-Strukturen in DaF-Kursen für fortgeschrittene Lernende ergeben"
-                }
-              ]
-            }
-          ]
-        },
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Wer wissenschaftliche Texte auf Deutsch lesen oder verfassen möchte, benötigt mehr als nur Fachvokabular. Neben der Terminologie des jeweiligen Fachs existiert ein Schicht allgemeiner sprachlicher Mittel, die nicht einem einzigen Fachgebiet zugehören, aber dennoch konstitutiv für das wissenschaftliche Schreiben sind. Graefen und Moll (2011) bezeichnen diese Schicht als Alltägliche Wissenschaftssprache – ein Begriff, der auf den ersten Blick paradox klingt, da er das Alltägliche und das Wissenschaftliche verbindet.",
-              "annotated_text": "[[definition]]Neben der Terminologie des jeweiligen Fachs existiert ein Schicht allgemeiner sprachlicher Mittel, die nicht einem einzigen Fachgebiet zugehören, aber dennoch konstitutiv für das wissenschaftliche Schreiben sind[[/definition]]. [[citation]]Graefen und Moll (2011) bezeichnen diese Schicht als Alltägliche Wissenschaftssprache[[/citation]].",
+              "text": "Die Frage, wie literarische Gattungen definiert und historisch beschrieben werden können, gehört zu den dauerhaft umstrittenen Problemen der Literaturwissenschaft. Unter Gattung versteht man im literaturwissenschaftlichen Sinne eine historisch entstandene, konventionell verfestigte Klasse von Texten, die durch ein Bündel formaler, thematischer und pragmatischer Merkmale charakterisiert ist und von Lesenden als solche erkannt wird. Besonders in der Gegenwartsliteratur ist eine zunehmende Hybridisierung zu beobachten: Texte kombinieren Merkmale des Romans mit essayistischen, dokumentarischen oder lyrischen Elementen und unterlaufen damit traditionelle Klassifikationsversuche. Der vorliegende Beitrag vertritt die These, dass Gattungshybridisierung nicht als Auflösung, sondern als produktive Transformation von Gattungsordnungen zu verstehen ist.",
+              "annotated_text": "[[definition]]Unter Gattung versteht man im literaturwissenschaftlichen Sinne eine historisch entstandene, konventionell verfestigte Klasse von Texten, die durch ein Bündel formaler, thematischer und pragmatischer Merkmale charakterisiert ist und von Lesenden als solche erkannt wird[[/definition]]. [[problem_statement]]Besonders in der Gegenwartsliteratur ist eine zunehmende Hybridisierung zu beobachten, die traditionelle Klassifikationsversuche unterlaufen[[/problem_statement]]. [[argument]]Der vorliegende Beitrag vertritt die These, dass Gattungshybridisierung nicht als Auflösung, sondern als produktive Transformation von Gattungsordnungen zu verstehen ist[[/argument]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Neben der Terminologie des jeweiligen Fachs existiert ein Schicht allgemeiner sprachlicher Mittel, die nicht einem einzigen Fachgebiet zugehören, aber dennoch konstitutiv für das wissenschaftliche Schreiben sind"
+                  "span": "Unter Gattung versteht man im literaturwissenschaftlichen Sinne eine historisch entstandene, konventionell verfestigte Klasse von Texten, die durch ein Bündel formaler, thematischer und pragmatischer Merkmale charakterisiert ist und von Lesenden als solche erkannt wird"
                 },
                 {
-                  "label": "citation",
-                  "span": "Graefen und Moll (2011) bezeichnen diese Schicht als Alltägliche Wissenschaftssprache"
-                }
-              ]
-            },
-            {
-              "text": "Die Herausforderung für DaF-Lernende liegt darin, dass AWS-Mittel zwar lexikalisch bekannt sein können, ihre wissenschaftssprachliche Verwendung jedoch häufig unvertraut ist. So kennen viele Lernende das Verb 'darstellen' aus dem Alltag, wissen aber nicht, dass es im wissenschaftlichen Text die Funktion übernimmt, einen Zusammenhang strukturiert zu explizieren. Dieses Spannungsfeld zwischen allgemeiner Bekanntheit und fachsprachlicher Fremdheit bildet den Ausgangspunkt des vorliegenden Beitrags.",
-              "annotated_text": "[[problem_statement]]Die Herausforderung für DaF-Lernende liegt darin, dass AWS-Mittel zwar lexikalisch bekannt sein können, ihre wissenschaftssprachliche Verwendung jedoch häufig unvertraut ist[[/problem_statement]].",
-              "annotations": [
-                {
                   "label": "problem_statement",
-                  "span": "Die Herausforderung für DaF-Lernende liegt darin, dass AWS-Mittel zwar lexikalisch bekannt sein können, ihre wissenschaftssprachliche Verwendung jedoch häufig unvertraut ist"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "AWS wird als Querschnittphänomen verstanden, das mehrere sprachliche Ebenen umfasst: die lexikalische (typische Wortverbindungen wie 'einen Zusammenhang herstellen'), die syntaktische (z. B. Nominalisierungen und Passivkonstruktionen) sowie die textuell-rhetorische Ebene (Mittel der Textstrukturierung und Kommentierung). Diese drei Ebenen bedingen einander und sind im wissenschaftlichen Text selten isoliert zu betrachten.",
-              "annotated_text": "[[definition]]AWS wird als Querschnittphänomen verstanden, das mehrere sprachliche Ebenen umfasst: die lexikalische, die syntaktische sowie die textuell-rhetorische Ebene[[/definition]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "AWS wird als Querschnittphänomen verstanden, das mehrere sprachliche Ebenen umfasst: die lexikalische, die syntaktische sowie die textuell-rhetorische Ebene"
-                }
-              ]
-            },
-            {
-              "text": "Im Vergleich zu spezifischer Fachterminologie hat AWS den Vorteil der Transferierbarkeit: Wer gelernt hat, Hypothesen in der Linguistik zu formulieren, kann dasselbe sprachliche Muster in der Soziologie oder Geschichtswissenschaft verwenden. Dieser disziplinübergreifende Charakter macht AWS-Kompetenz besonders wertvoll für Studierende, die in einem fremdsprachigen akademischen Umfeld schreiben müssen.",
-              "annotated_text": "[[comparison]]Im Vergleich zu spezifischer Fachterminologie hat AWS den Vorteil der Transferierbarkeit[[/comparison]]. [[argument]]Dieser disziplinübergreifende Charakter macht AWS-Kompetenz besonders wertvoll für Studierende, die in einem fremdsprachigen akademischen Umfeld schreiben müssen[[/argument]].",
-              "annotations": [
-                {
-                  "label": "comparison",
-                  "span": "Im Vergleich zu spezifischer Fachterminologie hat AWS den Vorteil der Transferierbarkeit"
+                  "span": "Besonders in der Gegenwartsliteratur ist eine zunehmende Hybridisierung zu beobachten, die traditionelle Klassifikationsversuche unterlaufen"
                 },
                 {
                   "label": "argument",
-                  "span": "Dieser disziplinübergreifende Charakter macht AWS-Kompetenz besonders wertvoll für Studierende, die in einem fremdsprachigen akademischen Umfeld schreiben müssen"
+                  "span": "Der vorliegende Beitrag vertritt die These, dass Gattungshybridisierung nicht als Auflösung, sondern als produktive Transformation von Gattungsordnungen zu verstehen ist"
                 }
               ]
             }
@@ -449,39 +148,16 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Befragt nach ihrer Erfahrung mit AWS-orientiertem Unterricht, berichten 82 % der befragten DaF-Lehrkräfte, dass ihre Kursteilnehmer nach einer gezielten AWS-Einheit Fachtexte flüssiger lesen konnten. Besonders positiv wurde die Arbeit mit typischen Fügungen bewertet: Übungen, in denen Lernende selbst Fügungen wie 'eine These vertreten' oder 'einen Aspekt hervorheben' in Texten identifizieren und anschließend aktiv verwenden, führten zu messbaren Verbesserungen in der Schreibkompetenz.",
-              "annotated_text": "[[data_description]]82 % der befragten DaF-Lehrkräfte berichten, dass ihre Kursteilnehmer nach einer gezielten AWS-Einheit Fachtexte flüssiger lesen konnten[[/data_description]]. [[result_statement]]Übungen, in denen Lernende Fügungen wie 'eine These vertreten' in Texten identifizieren und aktiv verwenden, führten zu messbaren Verbesserungen in der Schreibkompetenz[[/result_statement]].",
+              "text": "Die Analyse von acht ausgewählten Texten zeigt, dass die Hybridisierung zwischen Roman und Essay die häufigste Form der Gattungsmischung darstellt und in sechs der acht Texte nachweisbar ist. Charakteristisch für diesen Typus ist die Unterbrechung der Erzählhandlung durch Reflexionspassagen, in denen die Erzählinstanz philosophische, politische oder ästhetische Fragen aus der eigenen Biografie entwickelt. Eine zweite Form ist die Verbindung fiktionaler Erzählpassagen mit dokumentarischem Material wie Zeitungsartikeln, Verhörprotokollen oder Behördenkorrespondenz. Todorov (1978) und Fishelov (1993) haben gezeigt, dass Gattungsgrenzen stets durch Autorinnen, Autoren, Verlage und Lesende ausgehandelt werden. Die reine Klassifikationsfrage – ob ein Text als Roman oder Essay zu bezeichnen ist – erweist sich daher als weniger produktiv als die Frage nach den kommunikativen und ästhetischen Effekten der Gattungsmischung.",
+              "annotated_text": "[[result_statement]]Die Hybridisierung zwischen Roman und Essay ist die häufigste Form der Gattungsmischung und in sechs von acht untersuchten Texten nachweisbar[[/result_statement]]. [[citation]]Todorov (1978) und Fishelov (1993) haben gezeigt, dass Gattungsgrenzen stets durch Autorinnen, Autoren, Verlage und Lesende ausgehandelt werden, was Hybridisierung als Regelfall gattungsgeschichtlicher Dynamik erscheinen lässt[[/citation]].",
               "annotations": [
-                {
-                  "label": "data_description",
-                  "span": "82 % der befragten DaF-Lehrkräfte berichten, dass ihre Kursteilnehmer nach einer gezielten AWS-Einheit Fachtexte flüssiger lesen konnten"
-                },
                 {
                   "label": "result_statement",
-                  "span": "Übungen, in denen Lernende Fügungen wie 'eine These vertreten' in Texten identifizieren und aktiv verwenden, führten zu messbaren Verbesserungen in der Schreibkompetenz"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "AWS-orientierter DaF-Unterricht bietet erhebliche Potenziale, die über die reine Textrezeption hinausgehen und Lernende bei der eigenständigen Textproduktion unterstützen. Allerdings sollte AWS nicht als abgeschlossener Wortschatz gelehrt, sondern als dynamisches Repertoire verstanden werden, das im Zusammenhang mit echten akademischen Texten erschlossen wird. Eine isolierte Wortlistenarbeit ist weniger wirksam als die kontextgebundene Auseinandersetzung mit authentischen Texten.",
-              "annotated_text": "[[argument]]AWS-orientierter DaF-Unterricht bietet erhebliche Potenziale, die über die reine Textrezeption hinausgehen[[/argument]]. [[contrast]]Allerdings sollte AWS nicht als abgeschlossener Wortschatz gelehrt, sondern als dynamisches Repertoire verstanden werden[[/contrast]]. [[argument]]Eine isolierte Wortlistenarbeit ist weniger wirksam als die kontextgebundene Auseinandersetzung mit authentischen Texten[[/argument]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "AWS-orientierter DaF-Unterricht bietet erhebliche Potenziale, die über die reine Textrezeption hinausgehen"
+                  "span": "Die Hybridisierung zwischen Roman und Essay ist die häufigste Form der Gattungsmischung und in sechs von acht untersuchten Texten nachweisbar"
                 },
                 {
-                  "label": "contrast",
-                  "span": "Allerdings sollte AWS nicht als abgeschlossener Wortschatz gelehrt, sondern als dynamisches Repertoire verstanden werden"
-                },
-                {
-                  "label": "argument",
-                  "span": "Eine isolierte Wortlistenarbeit ist weniger wirksam als die kontextgebundene Auseinandersetzung mit authentischen Texten"
+                  "label": "citation",
+                  "span": "Todorov (1978) und Fishelov (1993) haben gezeigt, dass Gattungsgrenzen stets durch Autorinnen, Autoren, Verlage und Lesende ausgehandelt werden, was Hybridisierung als Regelfall gattungsgeschichtlicher Dynamik erscheinen lässt"
                 }
               ]
             }
@@ -491,61 +167,32 @@
     },
     {
       "doc_id": "D004",
-      "title": "Nominalstil und Passivkonstruktionen in wissenschaftlichen Texten",
+      "title": "Nominalstil und Passivkonstruktionen in deutschen wissenschaftlichen Fachtexten: Eine korpusbasierte Analyse",
       "domain": "Sprachwissenschaft",
-      "topic": "Sachlicher Stil, Nominalstil und Passiv",
+      "topic": "Nominalstil und Passiv in Fachtexten",
       "course_week": 12,
       "course_target": "Wissenschaftssprache Deutsch",
-      "difficulty": "schwer",
+      "difficulty": "mittel",
       "text_type": "Zeitschriftenartikel",
       "sections": [
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Wissenschaftliche Texte zeichnen sich durch eine Reihe sprachlicher Merkmale aus, die sie von alltagssprachlichen Texten grundlegend unterscheiden. Zu den markantesten gehören der ausgeprägte Nominalstil sowie die häufige Verwendung von Passivkonstruktionen. Diese stilistischen Mittel dienen nicht nur ästhetischen Zwecken, sondern erfüllen spezifische kommunikative Funktionen: Sie ermöglichen eine hohe Informationsdichte, eine Reduktion des Subjekts und damit eine stärkere Sachbezogenheit des Textes.",
-              "annotated_text": "[[definition]]Zu den markantesten Merkmalen wissenschaftlicher Texte gehören der ausgeprägte Nominalstil sowie die häufige Verwendung von Passivkonstruktionen[[/definition]]. [[argument]]Diese stilistischen Mittel dienen nicht nur ästhetischen Zwecken, sondern erfüllen spezifische kommunikative Funktionen: Sie ermöglichen eine hohe Informationsdichte und eine stärkere Sachbezogenheit des Textes[[/argument]].",
+              "text": "Der Nominalstil gilt als eines der markantesten Merkmale deutscher Fach- und Wissenschaftssprache. Er ist dadurch charakterisiert, dass verbale Inhalte durch Substantivierungen, Nominalphrasen und abstrakte Komposita ausgedrückt werden, anstatt durch finite Verben. Unter Nominalstil versteht man im linguistischen Sinne eine Schreibweise, in der die Substantive gegenüber den Verben deutlich überwiegen und in der Informationsgehalt sowie syntaktische Komplexität in Nominalphrasen konzentriert werden. In der Sprachkritik wird dieser Stil häufig als schwer verständlich bewertet; aus der Perspektive der Fachsprachenlinguistik erscheint er jedoch als funktional begründetes Mittel zur Präzision und Verdichtung. Die vorliegende Studie untersucht das Vorkommen und die Funktion von Nominalstil und Passivkonstruktionen in einem Korpus von 120 deutschsprachigen Artikeln aus vier Fachbereichen: Physik, Rechtswissenschaft, Linguistik und Wirtschaftswissenschaft.",
+              "annotated_text": "[[definition]]Unter Nominalstil versteht man im linguistischen Sinne eine Schreibweise, in der die Substantive gegenüber den Verben deutlich überwiegen und in der Informationsgehalt sowie syntaktische Komplexität in Nominalphrasen konzentriert werden[[/definition]]. [[contrast]]In der Sprachkritik wird dieser Stil häufig als schwer verständlich bewertet; aus der Perspektive der Fachsprachenlinguistik erscheint er jedoch als funktional begründetes Mittel zur Präzision und Verdichtung[[/contrast]]. [[research_question]]Die vorliegende Studie untersucht das Vorkommen und die Funktion von Nominalstil und Passivkonstruktionen in einem Korpus von 120 deutschsprachigen Artikeln aus vier Fachbereichen[[/research_question]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Zu den markantesten Merkmalen wissenschaftlicher Texte gehören der ausgeprägte Nominalstil sowie die häufige Verwendung von Passivkonstruktionen"
+                  "span": "Unter Nominalstil versteht man im linguistischen Sinne eine Schreibweise, in der die Substantive gegenüber den Verben deutlich überwiegen und in der Informationsgehalt sowie syntaktische Komplexität in Nominalphrasen konzentriert werden"
                 },
                 {
-                  "label": "argument",
-                  "span": "Diese stilistischen Mittel dienen nicht nur ästhetischen Zwecken, sondern erfüllen spezifische kommunikative Funktionen: Sie ermöglichen eine hohe Informationsdichte und eine stärkere Sachbezogenheit des Textes"
-                }
-              ]
-            },
-            {
-              "text": "Unter Nominalstil versteht man die Tendenz, Sachverhalte vorrangig durch Substantive (und substantivierte Infinitive oder Adjektive) auszudrücken, anstatt auf Verben zurückzugreifen. Ein typisches Beispiel ist die Umformung des Satzes 'Die Forscher haben die Daten analysiert' in 'Die Analyse der Daten durch die Forschenden ermöglichte…'. Diese Transformation verschiebt das Gewicht vom Handelnden zum Vorgang selbst.",
-              "annotated_text": "[[definition]]Unter Nominalstil versteht man die Tendenz, Sachverhalte vorrangig durch Substantive auszudrücken, anstatt auf Verben zurückzugreifen[[/definition]]. [[passive_style]]Die Umformung 'Die Forscher haben die Daten analysiert' in 'Die Analyse der Daten durch die Forschenden ermöglichte…' verschiebt das Gewicht vom Handelnden zum Vorgang selbst[[/passive_style]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Unter Nominalstil versteht man die Tendenz, Sachverhalte vorrangig durch Substantive auszudrücken, anstatt auf Verben zurückzugreifen"
+                  "label": "contrast",
+                  "span": "In der Sprachkritik wird dieser Stil häufig als schwer verständlich bewertet; aus der Perspektive der Fachsprachenlinguistik erscheint er jedoch als funktional begründetes Mittel zur Präzision und Verdichtung"
                 },
                 {
-                  "label": "passive_style",
-                  "span": "Die Umformung 'Die Forscher haben die Daten analysiert' in 'Die Analyse der Daten durch die Forschenden ermöglichte…' verschiebt das Gewicht vom Handelnden zum Vorgang selbst"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "Das Passiv wird in der germanistischen Grammatikschreibung als ein Mittel beschrieben, durch das der Fokus der Aussage vom Agens auf das Patiens verschoben wird. In wissenschaftlichen Texten erfüllt das Passiv dabei mehrere Funktionen gleichzeitig: Es objektiviert den Sachverhalt, indem es den menschlichen Akteur in den Hintergrund treten lässt; es generalisiert Aussagen, die sonst an konkrete Handelnde gebunden wären; und es entspricht der normativen Erwartung vieler Fachgemeinschaften an einen sachlichen, nicht-persönlichen Stil.",
-              "annotated_text": "[[definition]]Das Passiv wird als ein Mittel beschrieben, durch das der Fokus der Aussage vom Agens auf das Patiens verschoben wird[[/definition]]. [[argument]]In wissenschaftlichen Texten erfüllt das Passiv dabei mehrere Funktionen gleichzeitig: Es objektiviert den Sachverhalt und generalisiert Aussagen, die sonst an konkrete Handelnde gebunden wären[[/argument]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Das Passiv wird als ein Mittel beschrieben, durch das der Fokus der Aussage vom Agens auf das Patiens verschoben wird"
-                },
-                {
-                  "label": "argument",
-                  "span": "In wissenschaftlichen Texten erfüllt das Passiv dabei mehrere Funktionen gleichzeitig: Es objektiviert den Sachverhalt und generalisiert Aussagen, die sonst an konkrete Handelnde gebunden wären"
+                  "label": "research_question",
+                  "span": "Die vorliegende Studie untersucht das Vorkommen und die Funktion von Nominalstil und Passivkonstruktionen in einem Korpus von 120 deutschsprachigen Artikeln aus vier Fachbereichen"
                 }
               ]
             }
@@ -555,31 +202,20 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Die Auszählung ergibt, dass in den untersuchten Fachtexten im Durchschnitt 34 % aller Verben im Passiv stehen. Besonders hoch ist der Passivanteil in Methodenabschnitten (48 %) und in Ergebnisdarstellungen (41 %), während er in Einleitungen und Fazitabschnitten deutlich niedriger liegt (je ca. 22 %). Dies deutet darauf hin, dass Passivkonstruktionen in Textabschnitten bevorzugt werden, in denen ein unpersönlicher, verfahrensorientierter Stil besonders gefragt ist.",
-              "annotated_text": "[[data_description]]In den untersuchten Fachtexten stehen im Durchschnitt 34 % aller Verben im Passiv. Besonders hoch ist der Passivanteil in Methodenabschnitten (48 %) und in Ergebnisdarstellungen (41 %), während er in Einleitungen und Fazitabschnitten deutlich niedriger liegt (je ca. 22 %)[[/data_description]]. [[result_statement]]Dies deutet darauf hin, dass Passivkonstruktionen in Textabschnitten bevorzugt werden, in denen ein unpersönlicher, verfahrensorientierter Stil besonders gefragt ist[[/result_statement]].",
+              "text": "Die Auswertung ergibt, dass die Nominalquote in Physikartikeln mit durchschnittlich 3,2 am höchsten ist, gefolgt von Rechtswissenschaft (2,9), Wirtschaftswissenschaft (2,6) und Linguistik (2,3); der Unterschied zwischen Physik und Linguistik ist statistisch signifikant (p < 0,01). Fluck (1996) hat gezeigt, dass Nominalisierungen Prozesse in stabile Entitäten verwandeln, die als Argumente im Diskursfluss fungieren. Vorgangspassive kommen in den Naturwissenschaften mit 18,4 pro 100 Verbformen deutlich häufiger vor als in den Geistes- und Sozialwissenschaften (10,2). Dieser Befund belegt fachbereichsspezifisch unterschiedliche epistemische Normen. Für die Schreibdidaktik empfiehlt es sich daher, disziplinspezifische Konventionen bewusst zu vermitteln. Zukünftige Studien sollten qualitative Analysen der epistemischen Funktion in konkreten Argumentationszusammenhängen einschließen.",
+              "annotated_text": "[[data_description]]Die Nominalquote ist in Physikartikeln mit 3,2 am höchsten, gefolgt von Rechtswissenschaft (2,9), Wirtschaftswissenschaft (2,6) und Linguistik (2,3); der Unterschied ist signifikant (p < 0,01)[[/data_description]]. [[citation]]Fluck (1996) hat gezeigt, dass Nominalisierungen Prozesse in stabile Entitäten verwandeln, die als Referenzpunkte im Argumentationsgang fungieren[[/citation]]. [[result_statement]]Vorgangspassive kommen in den Naturwissenschaften mit 18,4 pro 100 Verbformen deutlich häufiger vor als in den Geistes- und Sozialwissenschaften (10,2), was auf unterschiedliche epistemische Normen hinweist[[/result_statement]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "In den untersuchten Fachtexten stehen im Durchschnitt 34 % aller Verben im Passiv. Besonders hoch ist der Passivanteil in Methodenabschnitten (48 %) und in Ergebnisdarstellungen (41 %), während er in Einleitungen und Fazitabschnitten deutlich niedriger liegt (je ca. 22 %)"
+                  "span": "Die Nominalquote ist in Physikartikeln mit 3,2 am höchsten, gefolgt von Rechtswissenschaft (2,9), Wirtschaftswissenschaft (2,6) und Linguistik (2,3); der Unterschied ist signifikant (p < 0,01)"
+                },
+                {
+                  "label": "citation",
+                  "span": "Fluck (1996) hat gezeigt, dass Nominalisierungen Prozesse in stabile Entitäten verwandeln, die als Referenzpunkte im Argumentationsgang fungieren"
                 },
                 {
                   "label": "result_statement",
-                  "span": "Dies deutet darauf hin, dass Passivkonstruktionen in Textabschnitten bevorzugt werden, in denen ein unpersönlicher, verfahrensorientierter Stil besonders gefragt ist"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Nominalstil und Passiv sind keine stilistischen Eigenheiten einzelner Autoren, sondern strukturelle Merkmale wissenschaftlicher Textproduktion. Sie spiegeln die epistemischen und kommunikativen Normen einer Fachgemeinschaft wider und sollten daher nicht als bloße Schwerfälligkeit des akademischen Stils missverstanden werden. Für Schreibende, die wissenschaftliche Texte in einer Fremdsprache verfassen, ist es wichtig, diese Mittel nicht nur zu erkennen, sondern auch aktiv und funktional einzusetzen.",
-              "annotated_text": "[[argument]]Nominalstil und Passiv sind keine stilistischen Eigenheiten einzelner Autoren, sondern strukturelle Merkmale wissenschaftlicher Textproduktion. Sie spiegeln die epistemischen und kommunikativen Normen einer Fachgemeinschaft wider[[/argument]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "Nominalstil und Passiv sind keine stilistischen Eigenheiten einzelner Autoren, sondern strukturelle Merkmale wissenschaftlicher Textproduktion. Sie spiegeln die epistemischen und kommunikativen Normen einer Fachgemeinschaft wider"
+                  "span": "Vorgangspassive kommen in den Naturwissenschaften mit 18,4 pro 100 Verbformen deutlich häufiger vor als in den Geistes- und Sozialwissenschaften (10,2), was auf unterschiedliche epistemische Normen hinweist"
                 }
               ]
             }
@@ -589,57 +225,28 @@
     },
     {
       "doc_id": "D005",
-      "title": "Textstrukturierung und Gliederungssignale in akademischen Einleitungen",
-      "domain": "Schreibdidaktik",
-      "topic": "Thematisierung, Kommentierung und Gliederung",
-      "course_week": 4,
+      "title": "Konnektoren als Mittel der Textstrukturierung im deutschen akademischen Diskurs",
+      "domain": "Sprachwissenschaft",
+      "topic": "Konnektoren und Textkohärenz in akademischen Texten",
+      "course_week": 5,
       "course_target": "Wissenschaftssprache Deutsch",
       "difficulty": "mittel",
-      "text_type": "Lehrbuchkapitel",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Die Einleitung einer wissenschaftlichen Arbeit erfüllt eine Schlüsselfunktion: Sie führt den Leser in das Thema ein, benennt das Problem oder die Forschungslücke, formuliert die Fragestellung und gibt einen Überblick über die Struktur der Arbeit. Diese vier Schritte entsprechen dem sogenannten CARS-Modell (Creating a Research Space), das von John Swales (1990) für akademische Einleitungen entwickelt wurde und inzwischen als Standardmodell der Schreibdidaktik gilt.",
-              "annotated_text": "[[definition]]Die Einleitung einer wissenschaftlichen Arbeit erfüllt eine Schlüsselfunktion: Sie führt den Leser in das Thema ein, benennt das Problem oder die Forschungslücke, formuliert die Fragestellung und gibt einen Überblick über die Struktur der Arbeit[[/definition]]. [[citation]]Diese vier Schritte entsprechen dem sogenannten CARS-Modell, das von John Swales (1990) für akademische Einleitungen entwickelt wurde[[/citation]].",
+              "text": "Konnektoren sind sprachliche Mittel, die Sätze, Satzteile oder Textabschnitte logisch oder rhetorisch miteinander verknüpfen und dabei die Kohärenz des Textes herstellen. In der Textlinguistik versteht man unter einem Konnektor einen bedeutungstragenden Ausdruck, der zwei propositionale Einheiten in einer spezifischen semantischen Beziehung zueinander setzt, ohne selbst eine eigenständige Proposition auszudrücken. Im deutschen akademischen Diskurs spielen Konnektoren eine zentrale Rolle, da sie den argumentativen Zusammenhang sichern und den Lesenden die logische Architektur des Textes erschließen. Die vorliegende Untersuchung fragt, wie adversative Konnektoren wie jedoch und allerdings und kausale Konnektoren wie daher und deshalb in germanistischen Fachzeitschriften funktional eingesetzt werden und welche textpositionellen Muster dabei auftreten.",
+              "annotated_text": "[[definition]]In der Textlinguistik versteht man unter einem Konnektor einen bedeutungstragenden Ausdruck, der zwei propositionale Einheiten in einer spezifischen semantischen Beziehung zueinander setzt, ohne selbst eine eigenständige Proposition auszudrücken[[/definition]]. [[research_question]]Die vorliegende Untersuchung fragt, wie adversative und kausale Konnektoren in germanistischen Fachzeitschriften funktional eingesetzt werden und welche textpositionellen Muster dabei auftreten[[/research_question]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Die Einleitung einer wissenschaftlichen Arbeit erfüllt eine Schlüsselfunktion: Sie führt den Leser in das Thema ein, benennt das Problem oder die Forschungslücke, formuliert die Fragestellung und gibt einen Überblick über die Struktur der Arbeit"
-                },
-                {
-                  "label": "citation",
-                  "span": "Diese vier Schritte entsprechen dem sogenannten CARS-Modell, das von John Swales (1990) für akademische Einleitungen entwickelt wurde"
-                }
-              ]
-            },
-            {
-              "text": "Für Schreibende in einer Fremdsprache stellt die Einleitung eine besondere Herausforderung dar, da sie neben der inhaltlichen Substanz auch die rhetorische Positionierung im wissenschaftlichen Diskurs leisten muss. Der vorliegende Beitrag analysiert, welche sprachlichen Mittel in deutschen wissenschaftlichen Einleitungen zur Thematisierung, Kommentierung und Gliederung eingesetzt werden und wie diese Mittel im Fremdsprachenunterricht vermittelt werden können.",
-              "annotated_text": "[[problem_statement]]Für Schreibende in einer Fremdsprache stellt die Einleitung eine besondere Herausforderung dar, da sie neben der inhaltlichen Substanz auch die rhetorische Positionierung im wissenschaftlichen Diskurs leisten muss[[/problem_statement]]. [[research_question]]Der vorliegende Beitrag analysiert, welche sprachlichen Mittel in deutschen wissenschaftlichen Einleitungen zur Thematisierung, Kommentierung und Gliederung eingesetzt werden[[/research_question]].",
-              "annotations": [
-                {
-                  "label": "problem_statement",
-                  "span": "Für Schreibende in einer Fremdsprache stellt die Einleitung eine besondere Herausforderung dar, da sie neben der inhaltlichen Substanz auch die rhetorische Positionierung im wissenschaftlichen Diskurs leisten muss"
+                  "span": "In der Textlinguistik versteht man unter einem Konnektor einen bedeutungstragenden Ausdruck, der zwei propositionale Einheiten in einer spezifischen semantischen Beziehung zueinander setzt, ohne selbst eine eigenständige Proposition auszudrücken"
                 },
                 {
                   "label": "research_question",
-                  "span": "Der vorliegende Beitrag analysiert, welche sprachlichen Mittel in deutschen wissenschaftlichen Einleitungen zur Thematisierung, Kommentierung und Gliederung eingesetzt werden"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "Gliederungssignale sind sprachliche Mittel, die dem Leser Orientierung im Text geben, indem sie den Übergang zwischen Textabschnitten markieren, auf vorangehende oder folgende Teile verweisen oder die Struktur des Textes explizit kommentieren. Beispiele sind Formulierungen wie 'Im Folgenden wird…', 'Wie oben gezeigt…' oder 'Abschließend sei darauf hingewiesen, dass…'. Solche Marker sind typische AWS-Elemente: Sie sind nicht fachgebunden, aber unerlässlich für die kohärente Gestaltung wissenschaftlicher Texte.",
-              "annotated_text": "[[definition]]Gliederungssignale sind sprachliche Mittel, die dem Leser Orientierung im Text geben, indem sie den Übergang zwischen Textabschnitten markieren, auf vorangehende oder folgende Teile verweisen oder die Struktur des Textes explizit kommentieren[[/definition]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Gliederungssignale sind sprachliche Mittel, die dem Leser Orientierung im Text geben, indem sie den Übergang zwischen Textabschnitten markieren, auf vorangehende oder folgende Teile verweisen oder die Struktur des Textes explizit kommentieren"
+                  "span": "Die vorliegende Untersuchung fragt, wie adversative und kausale Konnektoren in germanistischen Fachzeitschriften funktional eingesetzt werden und welche textpositionellen Muster dabei auftreten"
                 }
               ]
             }
@@ -649,31 +256,20 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Die Analyse von 60 Einleitungen aus germanistischen, soziologischen und historischen Fachzeitschriften zeigt, dass Gliederungssignale besonders am Anfang und am Ende von Einleitungen konzentriert sind. In 89 % der Texte findet sich im letzten Absatz der Einleitung mindestens eine explizite Ankündigung der folgenden Kapitelstruktur. Formulierungen wie 'Der Beitrag gliedert sich wie folgt…' oder 'Zunächst wird… dann… abschließend…' dienen dabei sowohl der Orientierung als auch der impliziten Legitimierung der gewählten Vorgehensweise.",
-              "annotated_text": "[[data_description]]In 89 % der Texte findet sich im letzten Absatz der Einleitung mindestens eine explizite Ankündigung der folgenden Kapitelstruktur[[/data_description]]. [[result_statement]]Formulierungen wie 'Der Beitrag gliedert sich wie folgt…' dienen dabei sowohl der Orientierung als auch der impliziten Legitimierung der gewählten Vorgehensweise[[/result_statement]].",
+              "text": "Die Auswertung zeigt, dass adversative Konnektoren mit 4,7 Vorkommen pro 1000 Wortformen häufiger auftreten als kausale (3,1 pro 1000) und sich besonders in Diskussions- und Fazitabschnitten konzentrieren, wo eigene Befunde gegen Erwartungen aus der Forschungsliteratur abgesetzt werden. Die am häufigsten verwendeten adversativen Ausdrücke – jedoch (38 %), allerdings (27 %) und demgegenüber (14 %) – sind funktional nicht gleichwertig: Während jedoch eine breite Kontrastfunktion übernimmt, signalisiert allerdings eine einschränkende Modifikation der vorangegangenen Aussage. Pasch et al. (2003) haben diese Feinunterscheidung theoretisch fundiert. Für die Schreibdidaktik ergibt sich daraus die Empfehlung, die pragmatischen Unterschiede gezielt im Unterricht zu thematisieren. Gezielte Übungen zur positionsabhängigen Konnektorenwahl können die argumentative Kompetenz im akademischen Schreiben stärken.",
+              "annotated_text": "[[data_description]]Adversative Konnektoren treten mit 4,7 Vorkommen pro 1000 Wortformen häufiger auf als kausale (3,1 pro 1000); sie häufen sich besonders in Diskussions- und Fazitabschnitten[[/data_description]]. [[result_statement]]Jedoch (38 %), allerdings (27 %) und demgegenüber (14 %) sind funktional nicht gleichwertig: jedoch übernimmt eine breite Kontrastfunktion, allerdings signalisiert eine einschränkende Modifikation[[/result_statement]]. [[citation]]Pasch et al. (2003) haben diese Feinunterscheidung im Handbuch der deutschen Konnektoren theoretisch fundiert[[/citation]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "In 89 % der Texte findet sich im letzten Absatz der Einleitung mindestens eine explizite Ankündigung der folgenden Kapitelstruktur"
+                  "span": "Adversative Konnektoren treten mit 4,7 Vorkommen pro 1000 Wortformen häufiger auf als kausale (3,1 pro 1000); sie häufen sich besonders in Diskussions- und Fazitabschnitten"
                 },
                 {
                   "label": "result_statement",
-                  "span": "Formulierungen wie 'Der Beitrag gliedert sich wie folgt…' dienen dabei sowohl der Orientierung als auch der impliziten Legitimierung der gewählten Vorgehensweise"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Gliederungssignale sind konstitutiver Bestandteil deutschsprachiger wissenschaftlicher Texte und tragen erheblich zur Textkohärenz und Leserorientierung bei. Für Lernende des wissenschaftlichen Schreibens im DaF-Kontext ist es daher empfehlenswert, diese Signale nicht nur rezeptiv zu kennen, sondern produktiv einzusetzen. Übungen, in denen Texte mit und ohne Gliederungssignale verglichen werden, können das Bewusstsein für deren Funktion wirksam schärfen.",
-              "annotated_text": "[[argument]]Gliederungssignale sind konstitutiver Bestandteil deutschsprachiger wissenschaftlicher Texte und tragen erheblich zur Textkohärenz und Leserorientierung bei[[/argument]].",
-              "annotations": [
+                  "span": "Jedoch (38 %), allerdings (27 %) und demgegenüber (14 %) sind funktional nicht gleichwertig: jedoch übernimmt eine breite Kontrastfunktion, allerdings signalisiert eine einschränkende Modifikation"
+                },
                 {
-                  "label": "argument",
-                  "span": "Gliederungssignale sind konstitutiver Bestandteil deutschsprachiger wissenschaftlicher Texte und tragen erheblich zur Textkohärenz und Leserorientierung bei"
+                  "label": "citation",
+                  "span": "Pasch et al. (2003) haben diese Feinunterscheidung im Handbuch der deutschen Konnektoren theoretisch fundiert"
                 }
               ]
             }
@@ -683,57 +279,32 @@
     },
     {
       "doc_id": "D006",
-      "title": "Argumentationsstrukturen in linguistischen Seminararbeiten",
+      "title": "Hedging und epistemische Modalität in deutschen und englischen linguistischen Fachtexten",
       "domain": "Sprachwissenschaft",
-      "topic": "Argumentieren und Argumentation",
+      "topic": "Hedging und epistemische Modalität im Fachtext",
       "course_week": 6,
       "course_target": "Wissenschaftssprache Deutsch",
       "difficulty": "schwer",
-      "text_type": "Forschungsartikel",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Das Argumentieren gehört zu den grundlegenden Handlungen wissenschaftlichen Schreibens. Während die formalen Anforderungen an wissenschaftliche Texte wie Quellenangaben, Gliederung und Sprachregister in der Schreibdidaktik ausgiebig behandelt wurden, ist die Frage, wie Argumentation sprachlich realisiert wird, weniger systematisch untersucht. Dabei ist argumentative Kompetenz entscheidend für die Überzeugungskraft eines wissenschaftlichen Textes und somit für dessen Rezeption in der Fachgemeinschaft.",
-              "annotated_text": "[[problem_statement]]Während die formalen Anforderungen an wissenschaftliche Texte in der Schreibdidaktik ausgiebig behandelt wurden, ist die Frage, wie Argumentation sprachlich realisiert wird, weniger systematisch untersucht[[/problem_statement]]. [[argument]]Argumentative Kompetenz ist entscheidend für die Überzeugungskraft eines wissenschaftlichen Textes[[/argument]].",
-              "annotations": [
-                {
-                  "label": "problem_statement",
-                  "span": "Während die formalen Anforderungen an wissenschaftliche Texte in der Schreibdidaktik ausgiebig behandelt wurden, ist die Frage, wie Argumentation sprachlich realisiert wird, weniger systematisch untersucht"
-                },
-                {
-                  "label": "argument",
-                  "span": "Argumentative Kompetenz ist entscheidend für die Überzeugungskraft eines wissenschaftlichen Textes"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "In der Argumentationstheorie wird zwischen Argument, Argument-Schluss und Conclusio unterschieden. Toulmin (1958) schlug ein Modell vor, das eine Aussage (Claim), eine Begründung (Data), eine Schlussregel (Warrant) sowie mögliche Einschränkungen (Qualifier) und Gegenargumente (Rebuttal) umfasst. Obwohl dieses Modell ursprünglich für juristische Argumentationen entwickelt wurde, hat es sich auch in der Schreibdidaktik als nützliches Analyseraster bewährt.",
-              "annotated_text": "[[citation]]Toulmin (1958) schlug ein Modell vor, das eine Aussage (Claim), eine Begründung (Data), eine Schlussregel (Warrant) sowie mögliche Einschränkungen (Qualifier) und Gegenargumente (Rebuttal) umfasst[[/citation]].",
-              "annotations": [
-                {
-                  "label": "citation",
-                  "span": "Toulmin (1958) schlug ein Modell vor, das eine Aussage (Claim), eine Begründung (Data), eine Schlussregel (Warrant) sowie mögliche Einschränkungen (Qualifier) und Gegenargumente (Rebuttal) umfasst"
-                }
-              ]
-            },
-            {
-              "text": "Für die sprachliche Realisierung von Argumenten sind konjunktionale Verknüpfungen von besonderer Bedeutung. Kausale Konnektoren wie 'da', 'weil' und 'denn' zeigen eine Begründungsrelation an, während konzessive Konnektoren wie 'obwohl', 'obgleich' oder 'wenngleich' die Geltung einer Aussage unter Einschränkungen signalisieren. Schlussfolgernde Konnektoren wie 'daher', 'deshalb' und 'folglich' markieren den Übergang von der Begründung zur Konklusion.",
-              "annotated_text": "[[definition]]Kausale Konnektoren wie 'da', 'weil' und 'denn' zeigen eine Begründungsrelation an, während konzessive Konnektoren wie 'obwohl' die Geltung einer Aussage unter Einschränkungen signalisieren[[/definition]]. [[contrast]]Schlussfolgernde Konnektoren wie 'daher', 'deshalb' und 'folglich' markieren den Übergang von der Begründung zur Konklusion[[/contrast]].",
+              "text": "Wissenschaftliches Schreiben ist nicht durch absolute Gewissheit, sondern durch einen differenzierten Umgang mit epistemischer Unsicherheit gekennzeichnet. Autorinnen und Autoren sichern ihre Behauptungen durch sprachliche Mittel ab, die in der Linguistik als Hedging bezeichnet werden. Unter Hedging versteht man das Ensemble sprachlicher Mittel, mit denen Sprecher und Sprecherinnen den Grad ihrer Überzeugung von der Wahrheit einer Aussage signalisieren oder die Reichweite einer Behauptung explizit einschränken. Hyland (1998) hat Hedging für das Englische intensiv untersucht; im deutschen Sprachraum ist die systematische Beschreibung dieses Phänomens vergleichsweise unterentwickelt, weshalb die vorliegende Studie einen Beitrag zur Schließung dieser Forschungslücke leisten möchte. Die vorliegende Studie vergleicht daher deutschsprachige und englischsprachige linguistische Fachzeitschriftenartikel hinsichtlich Typ und Dichte ihrer Hedging-Mittel.",
+              "annotated_text": "[[definition]]Unter Hedging versteht man das Ensemble sprachlicher Mittel, mit denen Sprecher und Sprecherinnen den Grad ihrer Überzeugung von der Wahrheit einer Aussage signalisieren oder die Reichweite einer Behauptung explizit einschränken[[/definition]]. [[citation]]Hyland (1998) hat Hedging für das Englische intensiv untersucht[[/citation]]. [[problem_statement]]Im deutschen Sprachraum ist die systematische Beschreibung dieses Phänomens vergleichsweise unterentwickelt, weshalb die vorliegende Studie einen Beitrag zur Schließung dieser Forschungslücke leisten möchte[[/problem_statement]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Kausale Konnektoren wie 'da', 'weil' und 'denn' zeigen eine Begründungsrelation an, während konzessive Konnektoren wie 'obwohl' die Geltung einer Aussage unter Einschränkungen signalisieren"
+                  "span": "Unter Hedging versteht man das Ensemble sprachlicher Mittel, mit denen Sprecher und Sprecherinnen den Grad ihrer Überzeugung von der Wahrheit einer Aussage signalisieren oder die Reichweite einer Behauptung explizit einschränken"
                 },
                 {
-                  "label": "contrast",
-                  "span": "Schlussfolgernde Konnektoren wie 'daher', 'deshalb' und 'folglich' markieren den Übergang von der Begründung zur Konklusion"
+                  "label": "citation",
+                  "span": "Hyland (1998) hat Hedging für das Englische intensiv untersucht"
+                },
+                {
+                  "label": "problem_statement",
+                  "span": "Im deutschen Sprachraum ist die systematische Beschreibung dieses Phänomens vergleichsweise unterentwickelt, weshalb die vorliegende Studie einen Beitrag zur Schließung dieser Forschungslücke leisten möchte"
                 }
               ]
             }
@@ -743,31 +314,16 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Die Auswertung von 50 linguistischen Seminararbeiten (Bachelor- und Masterniveau) zeigt, dass kausale Konnektoren mit Abstand am häufigsten eingesetzt werden: Sie machen 47 % aller argumentativen Verknüpfungen aus. Konzessive Konstruktionen sind deutlich seltener vertreten (12 %) und treten überwiegend in Diskussionsabschnitten auf. Auffällig ist, dass Einschränkungen und Gegenargumente in vielen Texten fehlen, was auf eine Tendenz zur unidirektionalen Argumentation hindeutet.",
-              "annotated_text": "[[data_description]]Kausale Konnektoren machen 47 % aller argumentativen Verknüpfungen aus. Konzessive Konstruktionen sind deutlich seltener vertreten (12 %) und treten überwiegend in Diskussionsabschnitten auf[[/data_description]]. [[result_statement]]Einschränkungen und Gegenargumente fehlen in vielen Texten, was auf eine Tendenz zur unidirektionalen Argumentation hindeutet[[/result_statement]].",
+              "text": "Die Analyse zeigt, dass in den deutschen Texten Hedging-Mittel mit einer Dichte von 14,3 pro 1000 Wortformen auftreten, in den englischen Vergleichstexten hingegen mit 21,7 pro 1000 (p < 0,001). Im Deutschen dominieren Konjunktiv-II-Formen (45 % aller Hedging-Mittel) und Modalpartikeln wie wohl und möglicherweise (28 %), während Modalverben im engeren Sinne nur 19 % ausmachen. Im Englischen entfallen 52 % auf Modalverben und 31 % auf epistemische Adverbien. Dieser Befund belegt, dass Hedging in beiden Sprachen auf grundlegend verschiedenen grammatischen Ressourcen beruht, was für die kontrastive Sprachwissenschaft und die Fremdsprachendidaktik gleichermaßen relevant ist. Diese strukturellen Unterschiede zeigen, dass eine Übertragung angloamerikanischer Hedging-Kategorien auf das Deutsche ohne typologische Anpassung zu Fehlinterpretationen führen kann und eine eigenständige Beschreibung auf der Basis des deutschen Sprachsystems notwendig ist.",
+              "annotated_text": "[[data_description]]Hedging-Mittel treten in deutschen Texten mit 14,3 pro 1000 Wortformen auf, in englischen mit 21,7 pro 1000 (p < 0,001)[[/data_description]]. [[result_statement]]Im Deutschen dominieren Konjunktiv-II-Formen (45 %) und Modalpartikeln (28 %), im Englischen Modalverben (52 %) und epistemische Adverbien (31 %), was belegt, dass Hedging in beiden Sprachen auf grundlegend verschiedenen grammatischen Ressourcen beruht[[/result_statement]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "Kausale Konnektoren machen 47 % aller argumentativen Verknüpfungen aus. Konzessive Konstruktionen sind deutlich seltener vertreten (12 %) und treten überwiegend in Diskussionsabschnitten auf"
+                  "span": "Hedging-Mittel treten in deutschen Texten mit 14,3 pro 1000 Wortformen auf, in englischen mit 21,7 pro 1000 (p < 0,001)"
                 },
                 {
                   "label": "result_statement",
-                  "span": "Einschränkungen und Gegenargumente fehlen in vielen Texten, was auf eine Tendenz zur unidirektionalen Argumentation hindeutet"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Wissenschaftliche Argumentation im Deutschen erfordert mehr als die korrekte Verwendung kausaler Konnektoren. Eine starke wissenschaftliche Argumentation zeichnet sich durch das Einbeziehen und Entkräften von Gegenargumenten aus – eine Fähigkeit, die im Unterricht gezielt geübt werden muss. Formulierungsmodelle wie 'Zwar… aber…', 'Obwohl X gilt, zeigt Y dennoch, dass…' oder 'Gegen diese Position lässt sich einwenden, dass…' können als Gerüst für konzessive Argumentationsstrukturen dienen.",
-              "annotated_text": "[[argument]]Eine starke wissenschaftliche Argumentation zeichnet sich durch das Einbeziehen und Entkräften von Gegenargumenten aus[[/argument]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "Eine starke wissenschaftliche Argumentation zeichnet sich durch das Einbeziehen und Entkräften von Gegenargumenten aus"
+                  "span": "Im Deutschen dominieren Konjunktiv-II-Formen (45 %) und Modalpartikeln (28 %), im Englischen Modalverben (52 %) und epistemische Adverbien (31 %), was belegt, dass Hedging in beiden Sprachen auf grundlegend verschiedenen grammatischen Ressourcen beruht"
                 }
               ]
             }
@@ -777,53 +333,32 @@
     },
     {
       "doc_id": "D007",
-      "title": "Vergleich und Gegenüberstellung als rhetorische Strategien in Fachtexten",
-      "domain": "Rhetorik und Textlinguistik",
-      "topic": "Gegenüberstellung und Vergleich",
-      "course_week": 9,
+      "title": "Argumentationsstrukturen in germanistischen Forschungsartikeln: Eine textlinguistische Untersuchung",
+      "domain": "Sprachwissenschaft",
+      "topic": "Argumentationsstrukturen in wissenschaftlichen Texten",
+      "course_week": 6,
       "course_target": "Wissenschaftssprache Deutsch",
       "difficulty": "mittel",
-      "text_type": "Lehrbuchkapitel",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Das Vergleichen ist eine elementare wissenschaftliche Operation: Es schärft Kategorien, deckt Gemeinsamkeiten und Unterschiede auf und hilft, neue Erkenntnisse im Verhältnis zu Bekanntem zu verorten. In wissenschaftlichen Texten wird der Vergleich auf unterschiedlichen Ebenen eingesetzt – als Makrostrategie ganzer Texte (z. B. Vergleichsstudien) ebenso wie als lokales rhetorisches Mittel auf Satz- und Absatzebene.",
-              "annotated_text": "[[definition]]Das Vergleichen ist eine elementare wissenschaftliche Operation: Es schärft Kategorien, deckt Gemeinsamkeiten und Unterschiede auf und hilft, neue Erkenntnisse im Verhältnis zu Bekanntem zu verorten[[/definition]].",
+              "text": "Wissenschaftliche Texte sind grundlegend argumentative Texte: Sie erheben Wissensansprüche, begründen diese durch Belege und Schlussfolgerungen und setzen sich mit abweichenden Positionen auseinander. Unter Argumentation versteht man in der Textlinguistik die sprachliche Handlung, durch die eine Sprecherin oder ein Sprecher eine strittige These durch Prämissen stützt und damit eine rationale Zustimmung anstrebt. Die vorliegende Untersuchung fragt, welche Argumentationsmuster in germanistischen Forschungsartikeln dominieren und inwiefern sich die Argumentationsstruktur systematisch nach Textabschnitt und Fachbereich unterscheidet. Dabei wird davon ausgegangen, dass die Disposition von Argument, Gegenargument und Schlussfolgerung nicht beliebig ist, sondern konventionell geregelt und didaktisch vermittelbar.",
+              "annotated_text": "[[definition]]Unter Argumentation versteht man in der Textlinguistik die sprachliche Handlung, durch die eine Sprecherin oder ein Sprecher eine strittige These durch Prämissen stützt und damit eine rationale Zustimmung anstrebt[[/definition]]. [[research_question]]Die vorliegende Untersuchung fragt, welche Argumentationsmuster in germanistischen Forschungsartikeln dominieren und inwiefern sich die Argumentationsstruktur systematisch nach Textabschnitt und Fachbereich unterscheidet[[/research_question]]. [[argument]]Dabei wird davon ausgegangen, dass die Disposition von Argument, Gegenargument und Schlussfolgerung nicht beliebig ist, sondern konventionell geregelt und didaktisch vermittelbar[[/argument]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Das Vergleichen ist eine elementare wissenschaftliche Operation: Es schärft Kategorien, deckt Gemeinsamkeiten und Unterschiede auf und hilft, neue Erkenntnisse im Verhältnis zu Bekanntem zu verorten"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "Sprachlich realisiert sich der Vergleich im Deutschen auf verschiedene Weise. Komparativstrukturen mit 'mehr als', 'weniger als' oder 'ähnlich wie' drücken graduelle Unterschiede aus. Kontrastive Konnektoren wie 'während', 'wohingegen' oder 'im Gegensatz dazu' markieren dagegen qualitative Gegensätze. Parallele Konstruktionen, bei denen zwei Sachverhalte in syntaktisch gleichartigen Strukturen nebeneinandergestellt werden, sind ein besonders elegantes Mittel der Gegenüberstellung.",
-              "annotated_text": "[[definition]]Komparativstrukturen mit 'mehr als', 'weniger als' oder 'ähnlich wie' drücken graduelle Unterschiede aus[[/definition]]. [[contrast]]Kontrastive Konnektoren wie 'während', 'wohingegen' oder 'im Gegensatz dazu' markieren dagegen qualitative Gegensätze[[/contrast]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Komparativstrukturen mit 'mehr als', 'weniger als' oder 'ähnlich wie' drücken graduelle Unterschiede aus"
+                  "span": "Unter Argumentation versteht man in der Textlinguistik die sprachliche Handlung, durch die eine Sprecherin oder ein Sprecher eine strittige These durch Prämissen stützt und damit eine rationale Zustimmung anstrebt"
                 },
                 {
-                  "label": "contrast",
-                  "span": "Kontrastive Konnektoren wie 'während', 'wohingegen' oder 'im Gegensatz dazu' markieren dagegen qualitative Gegensätze"
-                }
-              ]
-            },
-            {
-              "text": "Zu unterscheiden ist zwischen dem symmetrischen Vergleich, bei dem beide Vergleichsgrößen gleichwertig behandelt werden, und dem asymmetrischen Vergleich, bei dem eine Größe als Folie für die Bewertung der anderen dient. In der wissenschaftlichen Argumentation wird häufig der asymmetrische Vergleich eingesetzt, um die eigene Position durch den Kontrast zur Gegenposition zu profilieren.",
-              "annotated_text": "[[contrast]]Zu unterscheiden ist zwischen dem symmetrischen Vergleich, bei dem beide Vergleichsgrößen gleichwertig behandelt werden, und dem asymmetrischen Vergleich, bei dem eine Größe als Folie für die Bewertung der anderen dient[[/contrast]].",
-              "annotations": [
+                  "label": "research_question",
+                  "span": "Die vorliegende Untersuchung fragt, welche Argumentationsmuster in germanistischen Forschungsartikeln dominieren und inwiefern sich die Argumentationsstruktur systematisch nach Textabschnitt und Fachbereich unterscheidet"
+                },
                 {
-                  "label": "contrast",
-                  "span": "Zu unterscheiden ist zwischen dem symmetrischen Vergleich, bei dem beide Vergleichsgrößen gleichwertig behandelt werden, und dem asymmetrischen Vergleich, bei dem eine Größe als Folie für die Bewertung der anderen dient"
+                  "label": "argument",
+                  "span": "Dabei wird davon ausgegangen, dass die Disposition von Argument, Gegenargument und Schlussfolgerung nicht beliebig ist, sondern konventionell geregelt und didaktisch vermittelbar"
                 }
               ]
             }
@@ -833,31 +368,16 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Eine Analyse von 40 vergleichenden Fachtextpassagen zeigt, dass 'während'-Konstruktionen die mit Abstand am häufigsten verwendete Form der Gegenüberstellung sind (38 %). Deutlich seltener sind explizite Komparativkonstruktionen mit einem Vergleichsmaßstab (11 %). Interessanterweise verzichten viele Texte auf explizite Vergleichsmarker und verlassen sich stattdessen auf die parallelistische Textstruktur, um Kontraste zu signalisieren.",
-              "annotated_text": "[[data_description]]'Während'-Konstruktionen sind die mit Abstand am häufigsten verwendete Form der Gegenüberstellung (38 %). Explizite Komparativkonstruktionen sind deutlich seltener (11 %)[[/data_description]]. [[result_statement]]Viele Texte verzichten auf explizite Vergleichsmarker und verlassen sich stattdessen auf die parallelistische Textstruktur[[/result_statement]].",
+              "text": "Die Analyse von 45 Forschungsartikeln ergibt, dass das Pro-Kontra-Muster – bestehend aus These, Einwand und Erwiderung – mit 58 % das häufigste Argumentationsschema darstellt. Es tritt besonders konzentriert in Diskussionsabschnitten auf, wo die eigenen Befunde gegen konkurrierende Interpretationen aus der Literatur positioniert werden. Das kausal-deduktive Muster, bei dem aus allgemeinen Prämissen konkrete Schlussfolgerungen abgeleitet werden, macht 29 % aus und findet sich vor allem in Einleitungen. Einschränkend ist zu bemerken, dass die Klassifikation von Argumentationsmustern ein hohes Maß an Interpretationsermessen erfordert und die Inter-Rater-Reliabilität mit κ = 0,68 als akzeptabel, aber nicht optimal einzustufen ist. Für die Schreibdidaktik ergibt sich daraus die Empfehlung, explizites Argumentationstraining in den Unterricht zu integrieren und Studierenden sowohl typische Muster als auch deren kontextuelle Bedingungen bewusst zu machen.",
+              "annotated_text": "[[data_description]]Das Pro-Kontra-Muster macht 58 % der identifizierten Argumentationsschemata aus und tritt besonders konzentriert in Diskussionsabschnitten auf; das kausal-deduktive Muster kommt mit 29 % vor allem in Einleitungen vor[[/data_description]]. [[limitation]]Einschränkend ist zu bemerken, dass die Klassifikation von Argumentationsmustern ein hohes Maß an Interpretationsermessen erfordert und die Inter-Rater-Reliabilität mit κ = 0,68 als akzeptabel, aber nicht optimal einzustufen ist[[/limitation]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "'Während'-Konstruktionen sind die mit Abstand am häufigsten verwendete Form der Gegenüberstellung (38 %). Explizite Komparativkonstruktionen sind deutlich seltener (11 %)"
+                  "span": "Das Pro-Kontra-Muster macht 58 % der identifizierten Argumentationsschemata aus und tritt besonders konzentriert in Diskussionsabschnitten auf; das kausal-deduktive Muster kommt mit 29 % vor allem in Einleitungen vor"
                 },
                 {
-                  "label": "result_statement",
-                  "span": "Viele Texte verzichten auf explizite Vergleichsmarker und verlassen sich stattdessen auf die parallelistische Textstruktur"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Vergleichsstrukturen sind ein zentrales Instrument der wissenschaftlichen Argumentation und sollten im akademischen Schreibunterricht systematisch vermittelt werden. Dabei sollte nicht nur auf die formalen sprachlichen Mittel eingegangen werden, sondern auch auf die rhetorische Funktion des Vergleichs im jeweiligen Textzusammenhang. Ein gut eingesetzter Kontrast kann eine Argumentation erheblich schärfen und dem Leser helfen, die eigene Position der Verfassenden klarer zu erfassen.",
-              "annotated_text": "[[argument]]Vergleichsstrukturen sind ein zentrales Instrument der wissenschaftlichen Argumentation und sollten im akademischen Schreibunterricht systematisch vermittelt werden[[/argument]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "Vergleichsstrukturen sind ein zentrales Instrument der wissenschaftlichen Argumentation und sollten im akademischen Schreibunterricht systematisch vermittelt werden"
+                  "label": "limitation",
+                  "span": "Einschränkend ist zu bemerken, dass die Klassifikation von Argumentationsmustern ein hohes Maß an Interpretationsermessen erfordert und die Inter-Rater-Reliabilität mit κ = 0,68 als akzeptabel, aber nicht optimal einzustufen ist"
                 }
               ]
             }
@@ -867,57 +387,28 @@
     },
     {
       "doc_id": "D008",
-      "title": "Zitieren und Paraphrasieren im wissenschaftlichen Deutschen",
-      "domain": "Schreibdidaktik",
-      "topic": "Zitat, Wiedergabe und Paraphrase",
+      "title": "Strategien des Wortschatzerwerbs im Deutschen als Fremdsprache: Eine empirische Untersuchung bei erwachsenen Lernenden",
+      "domain": "Deutsch als Fremdsprache",
+      "topic": "Wortschatzerwerb im DaF-Unterricht",
       "course_week": 11,
       "course_target": "Wissenschaftssprache Deutsch",
       "difficulty": "mittel",
-      "text_type": "Didaktischer Aufsatz",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Das korrekte Zitieren und Paraphrasieren fremder Quellen ist eine der grundlegenden akademischen Kulturtechniken. In deutschsprachigen akademischen Texten kommen dabei besondere sprachliche Anforderungen hinzu: der Konjunktiv I als Mittel der indirekten Redewiedergabe und die sogenannte Quellenintegration, d. h. die sprachlich geschickte Einbettung fremder Stimmen in den eigenen Text. Fehler in diesem Bereich gelten nicht nur als sprachliche Mängel, sondern auch als wissenschaftlicher Verstoß.",
-              "annotated_text": "[[definition]]Das korrekte Zitieren und Paraphrasieren fremder Quellen ist eine der grundlegenden akademischen Kulturtechniken[[/definition]]. [[problem_statement]]Fehler in diesem Bereich gelten nicht nur als sprachliche Mängel, sondern auch als wissenschaftlicher Verstoß[[/problem_statement]].",
+              "text": "Der Erwerb eines präzise verwendbaren Wortschatzes gilt als eine der zentralen Herausforderungen beim Erlernen des Deutschen als Fremdsprache. Anders als in stärker analytischen Sprachen erfordert der deutsche Wortschatzerwerb nicht nur das Memorieren von Bedeutung und Aussprache, sondern auch das Erwerben grammatischer Informationen wie Genus, Flexionsklasse und Rektion. Unter Wortschatzerwerb versteht man in der Sprachlernforschung den Prozess, durch den Lernende neue Wörter einer Zielsprache in ihr mentales Lexikon integrieren und für Verstehensprozesse und Sprachproduktion verfügbar machen. Nation (2001) hat dargelegt, dass vollständiges Wortschatzkönnen mehrere Dimensionen umfasst: Kenntnis von Bedeutung, Form, Verwendung sowie syntagmatischen und paradigmatischen Beziehungen. Die vorliegende Untersuchung fragt daher, welche Lernstrategien erwachsene Deutschlernende bevorzugen und welche dieser Strategien nachweislich mit einem größeren Lernerfolg verbunden sind.",
+              "annotated_text": "[[definition]]Unter Wortschatzerwerb versteht man in der Sprachlernforschung den Prozess, durch den Lernende neue Wörter einer Zielsprache in ihr mentales Lexikon integrieren und für Verstehensprozesse und Sprachproduktion verfügbar machen[[/definition]]. [[citation]]Nation (2001) hat dargelegt, dass vollständiges Wortschatzkönnen mehrere Dimensionen umfasst: Kenntnis von Bedeutung, Form, Verwendung sowie syntagmatischen und paradigmatischen Beziehungen[[/citation]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Das korrekte Zitieren und Paraphrasieren fremder Quellen ist eine der grundlegenden akademischen Kulturtechniken"
+                  "span": "Unter Wortschatzerwerb versteht man in der Sprachlernforschung den Prozess, durch den Lernende neue Wörter einer Zielsprache in ihr mentales Lexikon integrieren und für Verstehensprozesse und Sprachproduktion verfügbar machen"
                 },
-                {
-                  "label": "problem_statement",
-                  "span": "Fehler in diesem Bereich gelten nicht nur als sprachliche Mängel, sondern auch als wissenschaftlicher Verstoß"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "Unter Paraphrase versteht man die sinngemäße Wiedergabe eines fremden Textes in eigenen Worten, wobei der Inhalt erhalten bleibt, die Formulierung jedoch verändert wird. Sie unterscheidet sich vom direkten Zitat, bei dem der Wortlaut übernommen wird, und von der Zusammenfassung, die den Inhalt verdichtet. Im wissenschaftlichen Deutschen wird die Paraphrase häufig mit dem Konjunktiv I verbunden, der anzeigt, dass es sich um die Wiedergabe einer fremden Aussage handelt.",
-              "annotated_text": "[[definition]]Unter Paraphrase versteht man die sinngemäße Wiedergabe eines fremden Textes in eigenen Worten, wobei der Inhalt erhalten bleibt, die Formulierung jedoch verändert wird[[/definition]]. [[contrast]]Sie unterscheidet sich vom direkten Zitat, bei dem der Wortlaut übernommen wird, und von der Zusammenfassung, die den Inhalt verdichtet[[/contrast]].",
-              "annotations": [
-                {
-                  "label": "definition",
-                  "span": "Unter Paraphrase versteht man die sinngemäße Wiedergabe eines fremden Textes in eigenen Worten, wobei der Inhalt erhalten bleibt, die Formulierung jedoch verändert wird"
-                },
-                {
-                  "label": "contrast",
-                  "span": "Sie unterscheidet sich vom direkten Zitat, bei dem der Wortlaut übernommen wird, und von der Zusammenfassung, die den Inhalt verdichtet"
-                }
-              ]
-            },
-            {
-              "text": "Der Konjunktiv I wird im wissenschaftlichen Deutschen eingesetzt, um die eigene Stimme von der zitierten Stimme abzugrenzen. Graefen und Moll (2011) erläutern, dass dieser Modus im Deutschen eine distanzierende Funktion hat und signalisiert, dass der Autor für den wiedergegebenen Inhalt keine direkte Verantwortung übernimmt. Typische Einleitungsverben für Paraphrasen sind: behaupten, feststellen, betonen, zeigen, argumentieren, hinweisen auf.",
-              "annotated_text": "[[citation]]Graefen und Moll (2011) erläutern, dass der Konjunktiv I im Deutschen eine distanzierende Funktion hat und signalisiert, dass der Autor für den wiedergegebenen Inhalt keine direkte Verantwortung übernimmt[[/citation]].",
-              "annotations": [
                 {
                   "label": "citation",
-                  "span": "Graefen und Moll (2011) erläutern, dass der Konjunktiv I im Deutschen eine distanzierende Funktion hat und signalisiert, dass der Autor für den wiedergegebenen Inhalt keine direkte Verantwortung übernimmt"
+                  "span": "Nation (2001) hat dargelegt, dass vollständiges Wortschatzkönnen mehrere Dimensionen umfasst: Kenntnis von Bedeutung, Form, Verwendung sowie syntagmatischen und paradigmatischen Beziehungen"
                 }
               ]
             }
@@ -927,31 +418,20 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Studentische Texte zeigen häufig eine Überabhängigkeit von direkten Zitaten: In einer Stichprobe von 30 Seminararbeiten wurde festgestellt, dass durchschnittlich 28 % der zitierten Passagen wörtlich übernommen wurden, ohne durch Paraphrasen oder eigene Kommentare ergänzt zu werden. Dies deutet auf eine unzureichende Eigenleistung hin und gilt in vielen akademischen Institutionen als unzureichende wissenschaftliche Praxis.",
-              "annotated_text": "[[data_description]]In einer Stichprobe von 30 Seminararbeiten wurden durchschnittlich 28 % der zitierten Passagen wörtlich übernommen[[/data_description]]. [[result_statement]]Dies deutet auf eine unzureichende Eigenleistung hin und gilt in vielen akademischen Institutionen als unzureichende wissenschaftliche Praxis[[/result_statement]].",
+              "text": "Die Befragung von 145 erwachsenen DaF-Lernenden ergibt, dass das Lernen von Wortlisten mit Übersetzungen die am häufigsten genannte Strategie ist (73 % nutzen sie regelmäßig), gefolgt von Karteikartensystemen oder digitalen Spaced-Repetition-Apps (58 %) und kontextbasiertem Lernen durch extensive Lektüre (41 %). Der Vergleich mit Vokabeltestergebnissen zeigt, dass Lernende, die kontextbasierte Strategien verwenden, signifikant besser abschneiden als solche, die ausschließlich auf Listenlernen setzen (p < 0,05). Einschränkend ist zu bemerken, dass die Gruppen hinsichtlich ihrer wöchentlichen Kontaktzeit mit der deutschen Sprache nicht vollständig vergleichbar sind, was die Interpretierbarkeit der Befunde einschränkt. Zukünftige Studien sollten Längsschnittdesigns verwenden, um den langfristigen Behaltenserfolg unterschiedlicher Strategien zu erfassen und dabei auch Lernermerkmale wie Ausgangssprache und Sprachniveau als Kontrollvariablen zu berücksichtigen.",
+              "annotated_text": "[[data_description]]73 % der Befragten nutzen Wortlisten regelmäßig, 58 % Spaced-Repetition-Apps und 41 % lernen kontextbasiert durch extensive Lektüre[[/data_description]]. [[result_statement]]Lernende mit kontextbasierten Strategien schneiden im Vokabeltest signifikant besser ab als solche mit reinem Listenlernen (p < 0,05)[[/result_statement]]. [[limitation]]Die Gruppen sind hinsichtlich ihrer wöchentlichen Kontaktzeit mit der deutschen Sprache nicht vollständig vergleichbar, was die Interpretierbarkeit der Befunde einschränkt[[/limitation]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "In einer Stichprobe von 30 Seminararbeiten wurden durchschnittlich 28 % der zitierten Passagen wörtlich übernommen"
+                  "span": "73 % der Befragten nutzen Wortlisten regelmäßig, 58 % Spaced-Repetition-Apps und 41 % lernen kontextbasiert durch extensive Lektüre"
                 },
                 {
                   "label": "result_statement",
-                  "span": "Dies deutet auf eine unzureichende Eigenleistung hin und gilt in vielen akademischen Institutionen als unzureichende wissenschaftliche Praxis"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Paraphrasieren ist keine mechanische Technik, sondern eine intellektuelle Leistung, die ein tiefes Verständnis des ursprünglichen Textes voraussetzt. Im DaF-Unterricht sollte daher nicht nur die formale Anwendung des Konjunktivs I geübt werden, sondern auch die inhaltliche Transformation fremder Ideen in eigene argumentative Kontexte. Nur so kann eigenständiges wissenschaftliches Schreiben entstehen, das über das reine Zusammentragen von Zitaten hinausgeht.",
-              "annotated_text": "[[argument]]Paraphrasieren ist keine mechanische Technik, sondern eine intellektuelle Leistung, die ein tiefes Verständnis des ursprünglichen Textes voraussetzt[[/argument]].",
-              "annotations": [
+                  "span": "Lernende mit kontextbasierten Strategien schneiden im Vokabeltest signifikant besser ab als solche mit reinem Listenlernen (p < 0,05)"
+                },
                 {
-                  "label": "argument",
-                  "span": "Paraphrasieren ist keine mechanische Technik, sondern eine intellektuelle Leistung, die ein tiefes Verständnis des ursprünglichen Textes voraussetzt"
+                  "label": "limitation",
+                  "span": "Die Gruppen sind hinsichtlich ihrer wöchentlichen Kontaktzeit mit der deutschen Sprache nicht vollständig vergleichbar, was die Interpretierbarkeit der Befunde einschränkt"
                 }
               ]
             }
@@ -961,47 +441,32 @@
     },
     {
       "doc_id": "D009",
-      "title": "Kohäsion und Verweiswörter in akademischen Texten",
-      "domain": "Textlinguistik",
-      "topic": "Beziehungen und Verweise im Text",
-      "course_week": 5,
+      "title": "Schreibkompetenz im DaF-Kontext: Zur Wirksamkeit unterschiedlicher Feedbackformate auf die Textqualität",
+      "domain": "Deutsch als Fremdsprache",
+      "topic": "Schreibkompetenz und Feedback im DaF-Unterricht",
+      "course_week": 1,
       "course_target": "Wissenschaftssprache Deutsch",
       "difficulty": "mittel",
-      "text_type": "Forschungsartikel",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Kohäsion bezeichnet die Gesamtheit sprachlicher Mittel, durch die die Sätze und Absätze eines Textes zu einem kohärenten Ganzen verbunden werden. Zu diesen Mitteln zählen vor allem Verweiswörter (Pronomen, Demonstrativa, Adverbien), aber auch lexikalische Wiederaufnahmen (Synonyme, Oberbegriffe, Pronominalisierungen). Im wissenschaftlichen Text spielen Kohäsionsmittel eine besondere Rolle, da sie nicht nur den Textzusammenhalt sichern, sondern auch argumentative Bezüge herstellen.",
-              "annotated_text": "[[definition]]Kohäsion bezeichnet die Gesamtheit sprachlicher Mittel, durch die die Sätze und Absätze eines Textes zu einem kohärenten Ganzen verbunden werden[[/definition]]. [[definition]]Zu diesen Mitteln zählen vor allem Verweiswörter (Pronomen, Demonstrativa, Adverbien), aber auch lexikalische Wiederaufnahmen (Synonyme, Oberbegriffe, Pronominalisierungen)[[/definition]].",
+              "text": "Die Förderung der Schreibkompetenz gilt in der DaF-Didaktik als eine der komplexesten Aufgaben, da sie sprachsystemliche, kommunikative, strategische und kognitive Dimensionen umfasst. Schreibkompetenz wird in der Schreibforschung nicht als einheitliche Fähigkeit, sondern als Bündel teilautonomer Kompetenzen verstanden, das grammatische Korrektheit, lexikalische Angemessenheit, Textkohärenz und Genrekompetenz umfasst. Die zentrale Forschungsfrage lautet, welche Feedbackformate – schriftlich, mündlich oder peer-basiert – zur Verbesserung welcher Kompetenzdimensionen beitragen. Hattie und Timperley (2007) haben in einer einflussreichen Meta-Analyse gezeigt, dass Feedback zu den wirksamsten Lerninterventionen gehört, aber stark von dessen Art, Timing und Qualität abhängt. Im DaF-spezifischen Kontext ist diese Frage bislang noch wenig empirisch untersucht worden.",
+              "annotated_text": "[[definition]]Schreibkompetenz wird in der Schreibforschung nicht als einheitliche Fähigkeit, sondern als Bündel teilautonomer Kompetenzen verstanden, das grammatische Korrektheit, lexikalische Angemessenheit, Textkohärenz, Adressatenorientierung und Genrekompetenz umfasst[[/definition]]. [[research_question]]Die zentrale Forschungsfrage lautet, welche Feedbackformate zur Verbesserung welcher Kompetenzdimensionen beitragen[[/research_question]]. [[citation]]Hattie und Timperley (2007) haben gezeigt, dass Feedback zu den wirksamsten Lerninterventionen gehört, aber stark von dessen Art und Qualität abhängt[[/citation]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Kohäsion bezeichnet die Gesamtheit sprachlicher Mittel, durch die die Sätze und Absätze eines Textes zu einem kohärenten Ganzen verbunden werden"
+                  "span": "Schreibkompetenz wird in der Schreibforschung nicht als einheitliche Fähigkeit, sondern als Bündel teilautonomer Kompetenzen verstanden, das grammatische Korrektheit, lexikalische Angemessenheit, Textkohärenz, Adressatenorientierung und Genrekompetenz umfasst"
                 },
                 {
-                  "label": "definition",
-                  "span": "Zu diesen Mitteln zählen vor allem Verweiswörter (Pronomen, Demonstrativa, Adverbien), aber auch lexikalische Wiederaufnahmen (Synonyme, Oberbegriffe, Pronominalisierungen)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "Halliday und Hasan (1976) unterscheiden in ihrer grundlegenden Arbeit zur Textkohäsion fünf Haupttypen: Referenz, Substitution, Ellipse, Konjunktion und lexikalische Kohäsion. Im deutschsprachigen Fachtextkontext ist besonders die Referenz relevant, da wissenschaftliche Texte auf zuvor eingeführte Konzepte und Argumente zurückverweisen müssen. Demonstrativa wie 'dieser', 'jener' oder 'solche' und Adverbialausdrücke wie 'dabei', 'dadurch' oder 'daraus' sind typische Mittel der Textreferenz.",
-              "annotated_text": "[[citation]]Halliday und Hasan (1976) unterscheiden fünf Haupttypen der Textkohäsion: Referenz, Substitution, Ellipse, Konjunktion und lexikalische Kohäsion[[/citation]]. [[definition]]Demonstrativa wie 'dieser', 'jener' oder 'solche' und Adverbialausdrücke wie 'dabei', 'dadurch' oder 'daraus' sind typische Mittel der Textreferenz[[/definition]].",
-              "annotations": [
+                  "label": "research_question",
+                  "span": "Die zentrale Forschungsfrage lautet, welche Feedbackformate zur Verbesserung welcher Kompetenzdimensionen beitragen"
+                },
                 {
                   "label": "citation",
-                  "span": "Halliday und Hasan (1976) unterscheiden fünf Haupttypen der Textkohäsion: Referenz, Substitution, Ellipse, Konjunktion und lexikalische Kohäsion"
-                },
-                {
-                  "label": "definition",
-                  "span": "Demonstrativa wie 'dieser', 'jener' oder 'solche' und Adverbialausdrücke wie 'dabei', 'dadurch' oder 'daraus' sind typische Mittel der Textreferenz"
+                  "span": "Hattie und Timperley (2007) haben gezeigt, dass Feedback zu den wirksamsten Lerninterventionen gehört, aber stark von dessen Art und Qualität abhängt"
                 }
               ]
             }
@@ -1011,31 +476,16 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "In einer Analyse von 25 Absätzen aus linguistischen Fachzeitschriften wurde festgestellt, dass Demonstrativpronomina und -adverbien in durchschnittlich 3,4 Fällen pro Absatz auftreten. Am häufigsten belegt sind die Formen 'dieser' (28 %), 'dabei' (19 %) und 'darüber hinaus' (14 %). Interessanterweise treten rückverweisende Konstruktionen häufiger auf als vorausverweisende, was die textuelle Orientierung an bereits Gesagtem spiegelt.",
-              "annotated_text": "[[data_description]]Demonstrativpronomina und -adverbien treten in durchschnittlich 3,4 Fällen pro Absatz auf. Am häufigsten belegt sind 'dieser' (28 %), 'dabei' (19 %) und 'darüber hinaus' (14 %)[[/data_description]]. [[result_statement]]Rückverweisende Konstruktionen treten häufiger auf als vorausverweisende, was die textuelle Orientierung an bereits Gesagtem spiegelt[[/result_statement]].",
+              "text": "Die Analyse des Revisionsverhaltens zeigt, dass Lernende mit schriftlichem Lehrerfeedback vorwiegend lexikalische und grammatische Korrekturen vornahmen (durchschnittlich 8,4 Änderungen pro Text), während Lernende mit mündlichem Konferenzfeedback häufiger inhaltliche und strukturelle Überarbeitungen vornahmen (5,1 gegenüber 3,2 inhaltlicher Änderungen). Auffällig ist, dass die Textqualität im Gesamturteil bei mündlichem Feedback am deutlichsten stieg, obwohl die absolute Anzahl der Überarbeitungen geringer war. Peer-Feedback führte zu einer gemischten Strategie, bei der Lernende Korrekturen ihrer Mitlerner selektiv übernahmen und mit eigenen Überarbeitungen kombinierten. Für die DaF-Didaktik ergibt sich daraus die Empfehlung, mündliche Feedback-Konferenzen stärker in den Unterrichtsalltag zu integrieren und Lernende gezielt auf deren produktive Nutzung vorzubereiten.",
+              "annotated_text": "[[data_description]]Lernende mit schriftlichem Feedback nahmen durchschnittlich 8,4 Änderungen vor; Lernende mit mündlichem Feedback vorwiegend inhaltliche Überarbeitungen (5,1 gegenüber 3,2)[[/data_description]]. [[result_statement]]Die Textqualität stieg im Gesamturteil bei mündlichem Feedback am deutlichsten, obwohl die absolute Anzahl der Überarbeitungen geringer war als bei schriftlichem Feedback[[/result_statement]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "Demonstrativpronomina und -adverbien treten in durchschnittlich 3,4 Fällen pro Absatz auf. Am häufigsten belegt sind 'dieser' (28 %), 'dabei' (19 %) und 'darüber hinaus' (14 %)"
+                  "span": "Lernende mit schriftlichem Feedback nahmen durchschnittlich 8,4 Änderungen vor; Lernende mit mündlichem Feedback vorwiegend inhaltliche Überarbeitungen (5,1 gegenüber 3,2)"
                 },
                 {
                   "label": "result_statement",
-                  "span": "Rückverweisende Konstruktionen treten häufiger auf als vorausverweisende, was die textuelle Orientierung an bereits Gesagtem spiegelt"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Die Befunde zeigen, dass Kohäsionsmittel ein konstitutives Merkmal wissenschaftlicher Texte sind und bewusst eingesetzt werden sollten. Für Lernende des akademischen Schreibens im DaF-Bereich ist es empfehlenswert, bei der Textrevision gezielt auf die Konsistenz und Klarheit von Verweiswörtern zu achten. Ein gut vernetzter Text erleichtert die Rezeption erheblich und signalisiert dem Leser, dass die Argumentation kohärent aufgebaut ist.",
-              "annotated_text": "[[argument]]Die Befunde zeigen, dass Kohäsionsmittel ein konstitutives Merkmal wissenschaftlicher Texte sind und bewusst eingesetzt werden sollten[[/argument]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "Die Befunde zeigen, dass Kohäsionsmittel ein konstitutives Merkmal wissenschaftlicher Texte sind und bewusst eingesetzt werden sollten"
+                  "span": "Die Textqualität stieg im Gesamturteil bei mündlichem Feedback am deutlichsten, obwohl die absolute Anzahl der Überarbeitungen geringer war als bei schriftlichem Feedback"
                 }
               ]
             }
@@ -1045,39 +495,32 @@
     },
     {
       "doc_id": "D010",
-      "title": "Beschreibung statistischer Daten und Grafiken im wissenschaftlichen Deutschen",
-      "domain": "Sprachwissenschaft / Statistik",
-      "topic": "Quantitäten, Qualitäten und Grafikbeschreibung",
+      "title": "Korpusmethoden im DaF-Grammatikunterricht: Frequenzinformationen und ihre didaktische Nutzung",
+      "domain": "Deutsch als Fremdsprache",
+      "topic": "Korpusmethoden und datengeleitetes Lernen im DaF-Unterricht",
       "course_week": 10,
       "course_target": "Wissenschaftssprache Deutsch",
-      "difficulty": "mittel",
-      "text_type": "Lehrtext mit Musterbeispielen",
+      "difficulty": "schwer",
+      "text_type": "Zeitschriftenartikel",
       "sections": [
         {
           "section": "Einleitung",
           "paragraphs": [
             {
-              "text": "Die sprachliche Beschreibung von Grafiken, Tabellen und statistischen Daten ist in vielen wissenschaftlichen Disziplinen eine unverzichtbare Kompetenz. Sie verlangt nicht nur die korrekte Verwendung von Ausdrücken für Quantitäten und Relationen, sondern auch die sprachliche Einbettung von Daten in den argumentativen Zusammenhang des Textes. Eine Grafik, die ohne verbalen Kommentar steht, ist in der wissenschaftlichen Argumentation nahezu wertlos.",
-              "annotated_text": "[[argument]]Eine Grafik, die ohne verbalen Kommentar steht, ist in der wissenschaftlichen Argumentation nahezu wertlos[[/argument]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "Eine Grafik, die ohne verbalen Kommentar steht, ist in der wissenschaftlichen Argumentation nahezu wertlos"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Theoretischer Hintergrund",
-          "paragraphs": [
-            {
-              "text": "Für die Beschreibung von Quantitäten stehen im Deutschen verschiedene sprachliche Mittel zur Verfügung. Absolutangaben (z. B. '34 % der Befragten') und Relativangaben (z. B. 'fast die Hälfte', 'mehr als ein Drittel') können kombiniert werden, um Präzision und Verständlichkeit zu verbinden. Für Trends und Entwicklungen werden Verben wie 'steigen', 'sinken', 'zunehmen', 'abnehmen' oder 'stagnieren' eingesetzt, häufig modifiziert durch Gradpartikeln wie 'deutlich', 'leicht', 'erheblich' oder 'kaum'.",
-              "annotated_text": "[[definition]]Für Trends und Entwicklungen werden Verben wie 'steigen', 'sinken', 'zunehmen', 'abnehmen' oder 'stagnieren' eingesetzt, häufig modifiziert durch Gradpartikeln wie 'deutlich', 'leicht', 'erheblich' oder 'kaum'[[/definition]].",
+              "text": "Der Einsatz von Sprachkorpora im Fremdsprachenunterricht, in der Forschungsliteratur als Data-Driven Learning (DDL) bezeichnet, hat in den letzten Jahren erheblich an Aufmerksamkeit gewonnen. Unter DDL versteht man einen lernerzentrierten Ansatz, bei dem Lernende als Sprachforschende agieren und aus authentischen Korpusbefunden eigenständig Hypothesen über Sprachstrukturen ableiten. Johns (1991) gilt als Begründer des Ansatzes und hat erstmals systematisch beschrieben, wie Konkordanzlisten als didaktisches Lernmaterial eingesetzt werden können. Im Kontext des DaF-Unterrichts stellt DDL besondere Anforderungen, da die Komplexität der deutschen Morphologie eine gezielte Begleitung durch Lehrende erfordert. Die vorliegende Studie untersucht daher, inwiefern Frequenzinformationen und Kollokationsdaten aus digitalen Korpora effektiv in den DaF-Grammatikunterricht integriert werden können und welche Rahmenbedingungen dafür notwendig sind.",
+              "annotated_text": "[[definition]]Unter Data-Driven Learning versteht man einen lernerzentrierten Ansatz, bei dem Lernende als Sprachforschende agieren und aus Korpusbefunden eigenständig Hypothesen über Sprachstrukturen ableiten[[/definition]]. [[citation]]Johns (1991) gilt als Begründer des Ansatzes und hat erstmals systematisch beschrieben, wie Konkordanzlisten als Lernmaterial eingesetzt werden können[[/citation]]. [[problem_statement]]Im DaF-Unterricht stellt DDL besondere Anforderungen, da Lernende über ausreichende Lesekompetenz im Deutschen verfügen müssen und die Komplexität der deutschen Morphologie eine gezielte Begleitung erfordert[[/problem_statement]].",
               "annotations": [
                 {
                   "label": "definition",
-                  "span": "Für Trends und Entwicklungen werden Verben wie 'steigen', 'sinken', 'zunehmen', 'abnehmen' oder 'stagnieren' eingesetzt, häufig modifiziert durch Gradpartikeln wie 'deutlich', 'leicht', 'erheblich' oder 'kaum'"
+                  "span": "Unter Data-Driven Learning versteht man einen lernerzentrierten Ansatz, bei dem Lernende als Sprachforschende agieren und aus Korpusbefunden eigenständig Hypothesen über Sprachstrukturen ableiten"
+                },
+                {
+                  "label": "citation",
+                  "span": "Johns (1991) gilt als Begründer des Ansatzes und hat erstmals systematisch beschrieben, wie Konkordanzlisten als Lernmaterial eingesetzt werden können"
+                },
+                {
+                  "label": "problem_statement",
+                  "span": "Im DaF-Unterricht stellt DDL besondere Anforderungen, da Lernende über ausreichende Lesekompetenz im Deutschen verfügen müssen und die Komplexität der deutschen Morphologie eine gezielte Begleitung erfordert"
                 }
               ]
             }
@@ -1087,31 +530,16 @@
           "section": "Ergebnisse",
           "paragraphs": [
             {
-              "text": "Abbildung 1 zeigt die Verteilung der Studienzeiten in einer Stichprobe von 200 Bachelorstudierenden im ersten Semester. Der Anteil der Studierenden, die zwischen 10 und 20 Stunden pro Woche studieren, liegt mit 43 % am höchsten. Deutlich weniger Studierende geben an, mehr als 30 Stunden zu studieren (12 %). Der Modalwert liegt bei 15 Stunden pro Woche. Auffällig ist, dass der Anteil mit unter 10 Stunden Lernzeit im Vergleich zu früheren Kohorten leicht gestiegen ist.",
-              "annotated_text": "[[data_description]]Der Anteil der Studierenden, die zwischen 10 und 20 Stunden pro Woche studieren, liegt mit 43 % am höchsten. Deutlich weniger Studierende geben an, mehr als 30 Stunden zu studieren (12 %). Der Modalwert liegt bei 15 Stunden pro Woche[[/data_description]]. [[result_statement]]Auffällig ist, dass der Anteil mit unter 10 Stunden Lernzeit im Vergleich zu früheren Kohorten leicht gestiegen ist[[/result_statement]].",
+              "text": "Die Auswertung der Lernertests ergibt, dass Lernende, die mit Korpusdaten gearbeitet haben, bei der Erkennung und Produktion komplexer Kollokationen signifikant besser abschneiden als die Kontrollgruppe (d = 0,61). Besonders ausgeprägt ist der Effekt im Bereich der Präpositionalphrasen: 54 % der DDL-Gruppe verwendeten korrekte Präpositionalkollokationen, gegenüber nur 31 % in der traditionell unterrichteten Gruppe. Im Bereich der Kasusmarkierung zeigen sich hingegen keine signifikanten Unterschiede (p = 0,18), was darauf hindeutet, dass korpusbasiertes Lernen bei hochfrequenten morphologischen Phänomenen möglicherweise weniger Vorteil bietet als bei kollokativem Wissen. Für die Unterrichtspraxis ergibt sich daraus die Empfehlung, DDL-Aktivitäten gezielt für kollokatives Wissen einzusetzen und sie mit expliziter Regelarbeit zu kombinieren, wenn morphologische Korrektheit im Vordergrund steht.",
+              "annotated_text": "[[data_description]]54 % der DDL-Gruppe verwendeten korrekte Präpositionalkollokationen, gegenüber 31 % in der Kontrollgruppe (d = 0,61); bei Kasusmarkierung zeigen sich keine signifikanten Unterschiede (p = 0,18)[[/data_description]]. [[result_statement]]Korpusbasiertes Lernen bietet im Bereich kollokationalen Wissens deutliche Vorteile, bei hochfrequenten morphologischen Phänomenen wie der Kasusmarkierung hingegen keinen messbaren Effekt[[/result_statement]].",
               "annotations": [
                 {
                   "label": "data_description",
-                  "span": "Der Anteil der Studierenden, die zwischen 10 und 20 Stunden pro Woche studieren, liegt mit 43 % am höchsten. Deutlich weniger Studierende geben an, mehr als 30 Stunden zu studieren (12 %). Der Modalwert liegt bei 15 Stunden pro Woche"
+                  "span": "54 % der DDL-Gruppe verwendeten korrekte Präpositionalkollokationen, gegenüber 31 % in der Kontrollgruppe (d = 0,61); bei Kasusmarkierung zeigen sich keine signifikanten Unterschiede (p = 0,18)"
                 },
                 {
                   "label": "result_statement",
-                  "span": "Auffällig ist, dass der Anteil mit unter 10 Stunden Lernzeit im Vergleich zu früheren Kohorten leicht gestiegen ist"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "section": "Fazit",
-          "paragraphs": [
-            {
-              "text": "Die Beschreibung von Daten in wissenschaftlichen Texten erfordert sowohl sprachliche Präzision als auch interpretative Urteilskraft. Quantitative Angaben sollten nicht isoliert präsentiert, sondern in einen argumentativen Kontext eingebettet werden. Phrasen wie 'Auffällig ist, dass…', 'Dies deutet darauf hin, dass…' oder 'Im Vergleich zu… zeigt sich, dass…' sind hilfreiche Formulierungsvorlagen für eine gelungene Verknüpfung von Daten und Interpretation.",
-              "annotated_text": "[[argument]]Quantitative Angaben sollten nicht isoliert präsentiert, sondern in einen argumentativen Kontext eingebettet werden[[/argument]].",
-              "annotations": [
-                {
-                  "label": "argument",
-                  "span": "Quantitative Angaben sollten nicht isoliert präsentiert, sondern in einen argumentativen Kontext eingebettet werden"
+                  "span": "Korpusbasiertes Lernen bietet im Bereich kollokationalen Wissens deutliche Vorteile, bei hochfrequenten morphologischen Phänomenen wie der Kasusmarkierung hingegen keinen messbaren Effekt"
                 }
               ]
             }
